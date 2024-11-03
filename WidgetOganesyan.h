@@ -20,8 +20,6 @@ private:
     QStringList headers;
 
     void drawBookRow(const std::shared_ptr<Book>& book, QPainter& painter, int& row, int rowHeight, const std::vector<int>& columnWidths, int startX, int startY);
-    int lastTableWidth = 0;
-    int lastTableHeight = 0;
 
 public:
 

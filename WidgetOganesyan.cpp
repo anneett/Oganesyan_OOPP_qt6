@@ -5,7 +5,6 @@
 #include <functional>
 #include <QFontMetrics>
 
-
 WidgetOganesyan::WidgetOganesyan(QWidget *parent)
     : QWidget{parent} {
     headers = { "  Название", "  Автор", "  Год выпуска", "  Издательство", "  В наличии", "  Рейтинг", "  URL" };
@@ -26,7 +25,7 @@ void WidgetOganesyan::paintEvent(QPaintEvent*) {
     int startX = 10;
     int startY = 10;
 
-    std::vector<int> columnWidths(headers.size(), 0);
+    vector<int> columnWidths(headers.size(), 0);
     QFontMetrics metrics(painter.font());
 
     for (int i = 0; i < headers.size(); ++i) {
@@ -49,10 +48,8 @@ void WidgetOganesyan::paintEvent(QPaintEvent*) {
         }
     }
 
-    int totalWidth = std::accumulate(columnWidths.begin(), columnWidths.end(), 0) + 20; // 20 for padding
-    int totalHeight = (books.size() + 1) * rowHeight + 20; // 20 for padding
-
-    // Set minimum size for the widget based on the table dimensions
+    int totalWidth = accumulate(columnWidths.begin(), columnWidths.end(), 0) + 20;
+    int totalHeight = (books.size() + 1) * rowHeight + 20;
     setMinimumSize(totalWidth, totalHeight);
     int numRows = books.size() + 1;
 
@@ -60,28 +57,22 @@ void WidgetOganesyan::paintEvent(QPaintEvent*) {
         painter.drawText(startX + accumulate(columnWidths.begin(), columnWidths.begin() + i, 0), startY + rowHeight / 2, headers[i]);
     }
 
-    // Переменная для отслеживания строки
     int row = 1;
-
     for_each(books.begin(), books.end(), bind(&WidgetOganesyan::drawBookRow, this, placeholders::_1, ref(painter), ref(row), rowHeight, columnWidths, startX, startY));
+    int tableWidth = accumulate(columnWidths.begin(), columnWidths.end(), 0) + startX;
 
-    // Рассчёт ширины таблицы по колонкам для ограничения горизонтальных линий
-    int tableWidth = std::accumulate(columnWidths.begin(), columnWidths.end(), 0) + startX;
-
-    // Отрисовка линий сетки
     for (int i = 0; i <= numRows; ++i) {
         int y = startY + i * rowHeight;
-        painter.drawLine(startX, y, tableWidth, y); // Используем tableWidth вместо totalWidth
+        painter.drawLine(startX, y, tableWidth, y);
     }
 
     for (int i = 0; i <= headers.size(); ++i) {
-        int x = startX + std::accumulate(columnWidths.begin(), columnWidths.begin() + i, 0);
+        int x = startX + accumulate(columnWidths.begin(), columnWidths.begin() + i, 0);
         painter.drawLine(x, startY, x, startY + numRows * rowHeight);
     }
 }
 
-
-void WidgetOganesyan::drawBookRow(const std::shared_ptr<Book>& book, QPainter& painter, int& row, int rowHeight, const std::vector<int>& columnWidths, int startX, int startY) {
+void WidgetOganesyan::drawBookRow(const shared_ptr<Book>& book, QPainter& painter, int& row, int rowHeight, const vector<int>& columnWidths, int startX, int startY) {
     int yPosition = startY + row * rowHeight + rowHeight / 2;
 
     painter.drawText(startX + 8, yPosition, QString::fromLocal8Bit(book->title.c_str()));
@@ -91,7 +82,7 @@ void WidgetOganesyan::drawBookRow(const std::shared_ptr<Book>& book, QPainter& p
     painter.drawText(startX + 8 + columnWidths[0] + columnWidths[1] + columnWidths[2] + columnWidths[3], yPosition, QString::number(book->in_stock));
     painter.drawText(startX + 8 + columnWidths[0] + columnWidths[1] + columnWidths[2] + columnWidths[3] + columnWidths[4], yPosition, QString::number(book->rating));
 
-    auto eBook = std::dynamic_pointer_cast<EBook>(book);
+    auto eBook = dynamic_pointer_cast<EBook>(book);
     if (eBook) {
         painter.drawText(startX + 8 + columnWidths[0] + columnWidths[1] + columnWidths[2] + columnWidths[3] + columnWidths[4] + columnWidths[5], yPosition, QString::fromStdString(eBook->link));
     } else {
@@ -102,7 +93,7 @@ void WidgetOganesyan::drawBookRow(const std::shared_ptr<Book>& book, QPainter& p
 }
 
 void WidgetOganesyan::load(const QString& path) {
-    std::ifstream inFile(path.toStdString(), std::ios::binary);
+    ifstream inFile(path.toStdString(), ios::binary);
     if (!inFile) {
         qDebug() << "Не удалось открыть файл для чтения.";
         return;
@@ -121,7 +112,7 @@ void WidgetOganesyan::load(const QString& path) {
 
 void WidgetOganesyan::save(const QString& path)
 {
-    std::ofstream out(path.toStdWString(), std::ofstream::binary);
+    ofstream out(path.toStdWString(), ofstream::binary);
     boost::archive::binary_oarchive oa(out);
     oa << books;
 }
