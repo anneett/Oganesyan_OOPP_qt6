@@ -5,27 +5,9 @@
 #include <functional>
 #include <QFontMetrics>
 
-BOOST_SERIALIZATION_SPLIT_FREE(QPointF)
-
-namespace boost {
-namespace serialization {
-template<class Archive>
-void load(Archive & ar, QPointF& p, const unsigned int) {
-    qreal x, y;
-    ar >> x;
-    ar >> y;
-    p.setX(x);
-    p.setY(y);
-}
-}
-}
-
-QString pointToString(QPointF& p) {
-    return QString("[%1;%2]").arg(p.x()).arg(p.y());
-}
 
 WidgetOganesyan::WidgetOganesyan(QWidget *parent)
-    : QWidget{parent}, showLabels(false) {
+    : QWidget{parent} {
     headers = { "  Название", "  Автор", "  Год выпуска", "  Издательство", "  В наличии", "  Рейтинг", "  URL" };
 }
 

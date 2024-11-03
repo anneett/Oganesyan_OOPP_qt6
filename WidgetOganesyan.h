@@ -1,7 +1,6 @@
 #pragma once
 
 #include "Boost.h"
-#include <qtmetamacros.h>
 #include <qwidget.h>
 #include <QWidget>
 #include <QTableWidget>
@@ -13,12 +12,18 @@ class WidgetOganesyan : public QWidget
 {
     Q_OBJECT
 
-public:
+private:
+
     vector<shared_ptr<Book>> books;
     QTableWidget* tableWidget;
     QScrollArea* scrollArea;
-    bool showLabels = true;
     QStringList headers;
+
+    void drawBookRow(const std::shared_ptr<Book>& book, QPainter& painter, int& row, int rowHeight, const std::vector<int>& columnWidths, int startX, int startY);
+    int lastTableWidth = 0;
+    int lastTableHeight = 0;
+
+public:
 
     explicit WidgetOganesyan(QWidget *parent = nullptr);
     void paintEvent(QPaintEvent *event) override;
@@ -26,10 +31,6 @@ public:
     void save(const QString& path);
     void clean();
 
-    int lastTableWidth = 0;
-    int lastTableHeight = 0;
-
-private:
-    void drawBookRow(const std::shared_ptr<Book>& book, QPainter& painter, int& row, int rowHeight, const std::vector<int>& columnWidths, int startX, int startY);
 signals:
+
 };

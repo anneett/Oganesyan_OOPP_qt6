@@ -11,8 +11,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(BOOST_ROOT "C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0")
 
-#include_directories(C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0)
-#set(BOOST_LIBRARYDIR "C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/stage/lib")
+# include_directories(C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0)
+# set(BOOST_LIBRARYDIR "C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/stage/lib")
 set(Boost_USE_STATIC_LIBS ON)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
@@ -36,19 +36,13 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(oganesyan_OOPP_qt6
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-
-
-
         Book.h
         EBook.h
-
-
         Boost.h
         WidgetOganesyan.h
         WidgetOganesyan.cpp
-        Boost.cpp
-        EBook.cpp
         Book.cpp
+        EBook.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET oganesyan_OOPP_qt6 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
