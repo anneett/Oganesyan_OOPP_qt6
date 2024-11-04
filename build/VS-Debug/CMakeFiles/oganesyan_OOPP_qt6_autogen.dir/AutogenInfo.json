@@ -1,18 +1,18 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/oganesyan_OOPP_qt6_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6",
+	"BUILD_DIR" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP_qt6_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6",
 	"CMAKE_EXECUTABLE" : "C:/QT/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/CMakeLists.txt",
-		"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/.qtc/package-manager/auto-setup.cmake",
-		"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake",
+		"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/CMakeLists.txt",
+		"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/.qtc/package-manager/auto-setup.cmake",
+		"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/3.29.3/CMakeSystem.cmake",
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
+		"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake",
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake",
@@ -25,7 +25,7 @@
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-MSVC-CXX.cmake",
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake",
-		"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake",
+		"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake",
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeRCInformation.cmake",
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
 		"C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
@@ -277,46 +277,46 @@
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
 		"C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6",
+	"CMAKE_SOURCE_DIR" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/oganesyan_OOPP_qt6_autogen/deps",
+	"DEP_FILE" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP_qt6_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "oganesyan_OOPP_qt6_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/Book.h",
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Book.h",
 			"MU",
 			"EWIEGA46WW/moc_Book.cpp",
 			null
 		],
 		[
-			"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/Boost.h",
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Boost.h",
 			"MU",
 			"EWIEGA46WW/moc_Boost.cpp",
 			null
 		],
 		[
-			"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/EBook.h",
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.h",
 			"MU",
 			"EWIEGA46WW/moc_EBook.cpp",
 			null
 		],
 		[
-			"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/WidgetOganesyan.h",
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.h",
 			"MU",
 			"EWIEGA46WW/moc_WidgetOganesyan.cpp",
 			null
 		],
 		[
-			"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/mainwindow.h",
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/oganesyan_OOPP_qt6_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/oganesyan_OOPP_qt6_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP_qt6_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP_qt6_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -362,25 +362,36 @@
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/oganesyan_OOPP_qt6_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/oganesyan_OOPP_qt6_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/QT/6.8.0/msvc2022_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/QT/6.8.0/msvc2022_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 8,
-	"SETTINGS_FILE" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/oganesyan_OOPP_qt6_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/oganesyan_OOPP_qt6_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/Book.cpp", "MU", null ],
-		[ "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/Boost.cpp", "MU", null ],
-		[ "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/EBook.cpp", "MU", null ],
 		[
-			"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/WidgetOganesyan.cpp",
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Book.cpp",
 			"MU",
 			null
 		],
-		[ "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/main.cpp", "MU", null ],
 		[
-			"C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/mainwindow.cpp",
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.cpp",
 			"MU",
 			null
 		]

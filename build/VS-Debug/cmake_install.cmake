@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/egiaz/Documents/oganesyan_OOPP_qt6
+# Install script for directory: C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/oganesyan_OOPP_qt6.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP_qt6.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -44,5 +44,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

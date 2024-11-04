@@ -6,11 +6,11 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/VS-Debug/.qtc/package-manager/auto-setup.cmake"
+			"path" : "build/VS-debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/VS-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake"
+			"path" : "build/VS-debug/CMakeFiles/3.29.3/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -24,7 +24,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/VS-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake"
+			"path" : "build/VS-debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -88,7 +88,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/VS-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake"
+			"path" : "build/VS-debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1146,8 +1146,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug",
-		"source" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6"
+		"build" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug",
+		"source" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6"
 	},
 	"version" : 
 	{

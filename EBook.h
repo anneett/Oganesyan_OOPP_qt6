@@ -1,5 +1,4 @@
-#ifndef EBOOK_H
-#define EBOOK_H
+#pragma once
 
 #include "Boost.h"
 #include "Book.h"
@@ -34,5 +33,3 @@ public:
 };
 
 BOOST_CLASS_VERSION(EBook, 1)
-
-#endif // EBOOK_H

@@ -193,7 +193,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake"
   "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows.cmake"
   "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake"
-  "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/CMakeLists.txt"
+  "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/CMakeLists.txt"
   ".qtc/package-manager/auto-setup.cmake"
   "CMakeFiles/3.29.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.3/CMakeRCCompiler.cmake"

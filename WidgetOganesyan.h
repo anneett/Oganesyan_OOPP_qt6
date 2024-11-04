@@ -15,7 +15,6 @@ class WidgetOganesyan : public QWidget
 private:
 
     vector<shared_ptr<Book>> books;
-    QTableWidget* tableWidget;
     QScrollArea* scrollArea;
     QStringList headers;
 

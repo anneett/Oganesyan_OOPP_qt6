@@ -4,7 +4,7 @@
 # compile CXX with C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/cl.exe
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
 
-CXX_INCLUDES = -IC:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\oganesyan_OOPP_qt6_autogen\include -IC:\Users\egiaz\Documents\oganesyan_oopp_qt\boost_1_86_0 -external:IC:\QT\6.8.0\msvc2022_64\include\QtCore -external:IC:\QT\6.8.0\msvc2022_64\include -external:IC:\QT\6.8.0\msvc2022_64\mkspecs\win32-msvc -external:IC:\QT\6.8.0\msvc2022_64\include\QtWidgets -external:IC:\QT\6.8.0\msvc2022_64\include\QtGui -external:W0
+CXX_INCLUDES = -IC:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\oganesyan_OOPP_qt6_autogen\include -IC:\Users\egiaz\Documents\oganesyan_oopp_qt\boost_1_86_0 -external:IC:\QT\6.8.0\msvc2022_64\include\QtCore -external:IC:\QT\6.8.0\msvc2022_64\include -external:IC:\QT\6.8.0\msvc2022_64\mkspecs\win32-msvc -external:IC:\QT\6.8.0\msvc2022_64\include\QtWidgets -external:IC:\QT\6.8.0\msvc2022_64\include\QtGui -external:W0
 
 CXX_FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
 

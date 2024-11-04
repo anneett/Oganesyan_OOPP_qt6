@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-47864e27d3928cebc802.json",
+					"jsonFile" : "directory-.-Debug-5f0390781406bb0eb6ba.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,14 +44,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "oganesyan_OOPP_qt6::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-oganesyan_OOPP_qt6-Debug-b54c5a093928e8499b78.json",
+					"jsonFile" : "target-oganesyan_OOPP_qt6-Debug-c1a05ed047ad39d237c5.json",
 					"name" : "oganesyan_OOPP_qt6",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "oganesyan_OOPP_qt6_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-oganesyan_OOPP_qt6_autogen-Debug-797836620dec65755768.json",
+					"jsonFile" : "target-oganesyan_OOPP_qt6_autogen-Debug-0ffb9c306b77dfaa0743.json",
 					"name" : "oganesyan_OOPP_qt6_autogen",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug",
-		"source" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6"
+		"build" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug",
+		"source" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6"
 	},
 	"version" : 
 	{

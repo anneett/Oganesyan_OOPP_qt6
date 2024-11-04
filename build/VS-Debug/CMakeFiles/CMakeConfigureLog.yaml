@@ -39,7 +39,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.exe
+        C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -51,7 +51,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        Примечание: включение файла:  C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        Примечание: включение файла:  C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Примечание: включение файла:  "
   -
@@ -63,8 +63,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-irsp1c"
-      binary: "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-irsp1c"
+      source: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-44zhm1"
+      binary: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-44zhm1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -74,30 +74,30 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-irsp1c'
+        Change Dir: 'C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-44zhm1'
         
-        Run Build Command(s): C:/QT/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_e8a08\\fast
+        Run Build Command(s): C:/QT/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_a7744\\fast
         jom: parallel job execution disabled for Makefile
-        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_e8a08.dir\\build.make /nologo -L CMakeFiles\\cmTC_e8a08.dir\\build
-        Building CXX object CMakeFiles/cmTC_e8a08.dir/CMakeCXXCompilerABI.cpp.obj
-        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_e8a08.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-irsp1c --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\egiaz\\AppData\\Local\\Temp\\CMakeCXXCompilerABI.cpp.obj.12864.0.jom
+        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_a7744.dir\\build.make /nologo -L CMakeFiles\\cmTC_a7744.dir\\build
+        Building CXX object CMakeFiles/cmTC_a7744.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_a7744.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-44zhm1 --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\egiaz\\AppData\\Local\\Temp\\CMakeCXXCompilerABI.cpp.obj.29548.0.jom
         CMakeCXXCompilerABI.cpp
         ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:  C:\\QT\\Tools\\CMake_64\\share\\cmake-3.29\\Modules\\CMakeCompilerABI.h
-        Linking CXX executable cmTC_e8a08.exe
-        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e8a08.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_e8a08.dir\\objects1.rsp @C:\\Users\\egiaz\\AppData\\Local\\Temp\\cmTC_e8a08.exe.12864.390.jom
+        Linking CXX executable cmTC_a7744.exe
+        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_a7744.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a7744.dir\\objects1.rsp @C:\\Users\\egiaz\\AppData\\Local\\Temp\\cmTC_a7744.exe.29548.375.jom
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_e8a08.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_e8a08.dir/embed.manifest
+        Create CMakeFiles\\cmTC_a7744.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_a7744.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_e8a08.dir/manifest.res CMakeFiles\\cmTC_e8a08.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a7744.dir/manifest.res CMakeFiles\\cmTC_a7744.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_e8a08.dir\\objects1.rsp /out:cmTC_e8a08.exe /implib:cmTC_e8a08.lib /pdb:C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-irsp1c\\cmTC_e8a08.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e8a08.dir/intermediate.manifest CMakeFiles\\cmTC_e8a08.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a7744.dir\\objects1.rsp /out:cmTC_a7744.exe /implib:cmTC_a7744.lib /pdb:C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-44zhm1\\cmTC_a7744.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a7744.dir/intermediate.manifest CMakeFiles\\cmTC_a7744.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_e8a08.dir/intermediate.manifest /out:CMakeFiles\\cmTC_e8a08.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_a7744.dir/intermediate.manifest /out:CMakeFiles\\cmTC_a7744.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_e8a08.dir/manifest.res CMakeFiles\\cmTC_e8a08.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a7744.dir/manifest.res CMakeFiles\\cmTC_a7744.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_e8a08.dir\\objects1.rsp /out:cmTC_e8a08.exe /implib:cmTC_e8a08.lib /pdb:C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-irsp1c\\cmTC_e8a08.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e8a08.dir/intermediate.manifest CMakeFiles\\cmTC_e8a08.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a7744.dir\\objects1.rsp /out:cmTC_a7744.exe /implib:cmTC_a7744.lib /pdb:C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-44zhm1\\cmTC_a7744.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a7744.dir/intermediate.manifest CMakeFiles\\cmTC_a7744.dir/manifest.res
         
       exitCode: 0
   -
@@ -139,12 +139,12 @@ events:
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:136 (include)"
-      - "CMakeLists.txt:12 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-84h2ig"
-      binary: "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-84h2ig"
+      source: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-yxwzk8"
+      binary: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-yxwzk8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -154,17 +154,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-84h2ig'
+        Change Dir: 'C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-yxwzk8'
         
-        Run Build Command(s): C:/QT/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_723e9\\fast
+        Run Build Command(s): C:/QT/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_ba16b\\fast
         jom: parallel job execution disabled for Makefile
-        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_723e9.dir\\build.make /nologo -L CMakeFiles\\cmTC_723e9.dir\\build
-        Building CXX object CMakeFiles/cmTC_723e9.dir/src.cxx.obj
-        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_723e9.dir\\src.cxx.obj.d --working-dir=C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-84h2ig --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\egiaz\\AppData\\Local\\Temp\\src.cxx.obj.22208.16.jom
+        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_ba16b.dir\\build.make /nologo -L CMakeFiles\\cmTC_ba16b.dir\\build
+        Building CXX object CMakeFiles/cmTC_ba16b.dir/src.cxx.obj
+        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_ba16b.dir\\src.cxx.obj.d --working-dir=C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-yxwzk8 --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\egiaz\\AppData\\Local\\Temp\\src.cxx.obj.39760.0.jom
         src.cxx
-        C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-84h2ig\\src.cxx(1): fatal error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory,
-        jom: C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-84h2ig\\CMakeFiles\\cmTC_723e9.dir\\build.make [CMakeFiles\\cmTC_723e9.dir\\src.cxx.obj] Error 2
-        jom: C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-84h2ig\\Makefile [cmTC_723e9\\fast] Error 2
+        C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-yxwzk8\\src.cxx(1): fatal error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory,
+        jom: C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-yxwzk8\\CMakeFiles\\cmTC_ba16b.dir\\build.make [CMakeFiles\\cmTC_ba16b.dir\\src.cxx.obj] Error 2
+        jom: C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-yxwzk8\\Makefile [cmTC_ba16b\\fast] Error 2
         
       exitCode: 2
   -
@@ -177,12 +177,12 @@ events:
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:136 (include)"
-      - "CMakeLists.txt:12 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-pmqrok"
-      binary: "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-pmqrok"
+      source: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-rx1m7t"
+      binary: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-rx1m7t"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -192,27 +192,27 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-pmqrok'
+        Change Dir: 'C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-rx1m7t'
         
-        Run Build Command(s): C:/QT/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_3203c\\fast
+        Run Build Command(s): C:/QT/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_adbb1\\fast
         jom: parallel job execution disabled for Makefile
-        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_3203c.dir\\build.make /nologo -L CMakeFiles\\cmTC_3203c.dir\\build
-        Building CXX object CMakeFiles/cmTC_3203c.dir/CheckFunctionExists.cxx.obj
-        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_3203c.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-pmqrok --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\egiaz\\AppData\\Local\\Temp\\CheckFunctionExists.cxx.obj.13208.0.jom
+        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_adbb1.dir\\build.make /nologo -L CMakeFiles\\cmTC_adbb1.dir\\build
+        Building CXX object CMakeFiles/cmTC_adbb1.dir/CheckFunctionExists.cxx.obj
+        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_adbb1.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-rx1m7t --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\egiaz\\AppData\\Local\\Temp\\CheckFunctionExists.cxx.obj.32836.0.jom
         CheckFunctionExists.cxx
-        Linking CXX executable cmTC_3203c.exe
-        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_3203c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3203c.dir\\objects1.rsp @C:\\Users\\egiaz\\AppData\\Local\\Temp\\cmTC_3203c.exe.13208.109.jom
+        Linking CXX executable cmTC_adbb1.exe
+        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_adbb1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_adbb1.dir\\objects1.rsp @C:\\Users\\egiaz\\AppData\\Local\\Temp\\cmTC_adbb1.exe.32836.109.jom
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_3203c.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_3203c.dir/embed.manifest
+        Create CMakeFiles\\cmTC_adbb1.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_adbb1.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_3203c.dir/manifest.res CMakeFiles\\cmTC_3203c.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_adbb1.dir/manifest.res CMakeFiles\\cmTC_adbb1.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3203c.dir\\objects1.rsp /out:cmTC_3203c.exe /implib:cmTC_3203c.lib /pdb:C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-pmqrok\\cmTC_3203c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3203c.dir/intermediate.manifest CMakeFiles\\cmTC_3203c.dir/manifest.res
-        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3203c.dir\\objects1.rsp /out:cmTC_3203c.exe /implib:cmTC_3203c.lib /pdb:C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-pmqrok\\cmTC_3203c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3203c.dir/intermediate.manifest CMakeFiles\\cmTC_3203c.dir/manifest.res" failed (exit code 1104) with the following output:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_adbb1.dir\\objects1.rsp /out:cmTC_adbb1.exe /implib:cmTC_adbb1.lib /pdb:C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-rx1m7t\\cmTC_adbb1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_adbb1.dir/intermediate.manifest CMakeFiles\\cmTC_adbb1.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_adbb1.dir\\objects1.rsp /out:cmTC_adbb1.exe /implib:cmTC_adbb1.lib /pdb:C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-rx1m7t\\cmTC_adbb1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_adbb1.dir/intermediate.manifest CMakeFiles\\cmTC_adbb1.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib"
-        jom: C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-pmqrok\\CMakeFiles\\cmTC_3203c.dir\\build.make [cmTC_3203c.exe] Error 2
-        jom: C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-pmqrok\\Makefile [cmTC_3203c\\fast] Error 2
+        jom: C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-rx1m7t\\CMakeFiles\\cmTC_adbb1.dir\\build.make [cmTC_adbb1.exe] Error 2
+        jom: C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-rx1m7t\\Makefile [cmTC_adbb1\\fast] Error 2
         
       exitCode: 2
   -
@@ -225,12 +225,12 @@ events:
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:136 (include)"
-      - "CMakeLists.txt:12 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-gxexlj"
-      binary: "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-gxexlj"
+      source: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-4ggn38"
+      binary: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-4ggn38"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -240,27 +240,27 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-gxexlj'
+        Change Dir: 'C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-4ggn38'
         
-        Run Build Command(s): C:/QT/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_385f9\\fast
+        Run Build Command(s): C:/QT/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_bcb43\\fast
         jom: parallel job execution disabled for Makefile
-        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_385f9.dir\\build.make /nologo -L CMakeFiles\\cmTC_385f9.dir\\build
-        Building CXX object CMakeFiles/cmTC_385f9.dir/CheckFunctionExists.cxx.obj
-        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_385f9.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gxexlj --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\egiaz\\AppData\\Local\\Temp\\CheckFunctionExists.cxx.obj.34620.16.jom
+        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_bcb43.dir\\build.make /nologo -L CMakeFiles\\cmTC_bcb43.dir\\build
+        Building CXX object CMakeFiles/cmTC_bcb43.dir/CheckFunctionExists.cxx.obj
+        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_bcb43.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-4ggn38 --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\egiaz\\AppData\\Local\\Temp\\CheckFunctionExists.cxx.obj.38408.15.jom
         CheckFunctionExists.cxx
-        Linking CXX executable cmTC_385f9.exe
-        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_385f9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_385f9.dir\\objects1.rsp @C:\\Users\\egiaz\\AppData\\Local\\Temp\\cmTC_385f9.exe.34620.110.jom
+        Linking CXX executable cmTC_bcb43.exe
+        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_bcb43.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_bcb43.dir\\objects1.rsp @C:\\Users\\egiaz\\AppData\\Local\\Temp\\cmTC_bcb43.exe.38408.109.jom
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_385f9.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_385f9.dir/embed.manifest
+        Create CMakeFiles\\cmTC_bcb43.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_bcb43.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_385f9.dir/manifest.res CMakeFiles\\cmTC_385f9.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_bcb43.dir/manifest.res CMakeFiles\\cmTC_bcb43.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_385f9.dir\\objects1.rsp /out:cmTC_385f9.exe /implib:cmTC_385f9.lib /pdb:C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gxexlj\\cmTC_385f9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_385f9.dir/intermediate.manifest CMakeFiles\\cmTC_385f9.dir/manifest.res
-        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_385f9.dir\\objects1.rsp /out:cmTC_385f9.exe /implib:cmTC_385f9.lib /pdb:C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gxexlj\\cmTC_385f9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_385f9.dir/intermediate.manifest CMakeFiles\\cmTC_385f9.dir/manifest.res" failed (exit code 1104) with the following output:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_bcb43.dir\\objects1.rsp /out:cmTC_bcb43.exe /implib:cmTC_bcb43.lib /pdb:C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-4ggn38\\cmTC_bcb43.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_bcb43.dir/intermediate.manifest CMakeFiles\\cmTC_bcb43.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_bcb43.dir\\objects1.rsp /out:cmTC_bcb43.exe /implib:cmTC_bcb43.lib /pdb:C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-4ggn38\\cmTC_bcb43.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_bcb43.dir/intermediate.manifest CMakeFiles\\cmTC_bcb43.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: не удается открыть файл "pthread.lib"
-        jom: C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gxexlj\\CMakeFiles\\cmTC_385f9.dir\\build.make [cmTC_385f9.exe] Error 2
-        jom: C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gxexlj\\Makefile [cmTC_385f9\\fast] Error 2
+        jom: C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-4ggn38\\CMakeFiles\\cmTC_bcb43.dir\\build.make [cmTC_bcb43.exe] Error 2
+        jom: C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-4ggn38\\Makefile [cmTC_bcb43\\fast] Error 2
         
       exitCode: 2
   -
@@ -278,12 +278,12 @@ events:
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:43 (_qt_internal_find_qt_dependencies)"
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/QT/6.8.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:19 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-lkan23"
-      binary: "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-lkan23"
+      source: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-nwh8fl"
+      binary: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-nwh8fl"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -293,13 +293,13 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/CMakeScratch/TryCompile-lkan23'
+        Change Dir: 'C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-nwh8fl'
         
-        Run Build Command(s): C:/QT/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_5b492\\fast
+        Run Build Command(s): C:/QT/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_1b856\\fast
         jom: parallel job execution disabled for Makefile
-        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_5b492.dir\\build.make /nologo -L CMakeFiles\\cmTC_5b492.dir\\build
-        Building CXX object CMakeFiles/cmTC_5b492.dir/src.cxx.obj
-        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_5b492.dir\\src.cxx.obj.d --working-dir=C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lkan23 --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\egiaz\\AppData\\Local\\Temp\\src.cxx.obj.38440.16.jom
+        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_1b856.dir\\build.make /nologo -L CMakeFiles\\cmTC_1b856.dir\\build
+        Building CXX object CMakeFiles/cmTC_1b856.dir/src.cxx.obj
+        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_1b856.dir\\src.cxx.obj.d --working-dir=C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-nwh8fl --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\egiaz\\AppData\\Local\\Temp\\src.cxx.obj.39140.0.jom
         src.cxx
         ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\atomic
         ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:   C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\yvals.h
@@ -338,21 +338,21 @@ events:
         ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:     C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\ctime
         ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:      C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\time.h
         ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:       C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_wtime.h
-        Linking CXX executable cmTC_5b492.exe
-        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_5b492.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_5b492.dir\\objects1.rsp @C:\\Users\\egiaz\\AppData\\Local\\Temp\\cmTC_5b492.exe.38440.188.jom
+        Linking CXX executable cmTC_1b856.exe
+        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_1b856.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1b856.dir\\objects1.rsp @C:\\Users\\egiaz\\AppData\\Local\\Temp\\cmTC_1b856.exe.39140.172.jom
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_5b492.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_5b492.dir/embed.manifest
+        Create CMakeFiles\\cmTC_1b856.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_1b856.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_5b492.dir/manifest.res CMakeFiles\\cmTC_5b492.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_1b856.dir/manifest.res CMakeFiles\\cmTC_1b856.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_5b492.dir\\objects1.rsp /out:cmTC_5b492.exe /implib:cmTC_5b492.lib /pdb:C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lkan23\\cmTC_5b492.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_5b492.dir/intermediate.manifest CMakeFiles\\cmTC_5b492.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1b856.dir\\objects1.rsp /out:cmTC_1b856.exe /implib:cmTC_1b856.lib /pdb:C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-nwh8fl\\cmTC_1b856.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1b856.dir/intermediate.manifest CMakeFiles\\cmTC_1b856.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_5b492.dir/intermediate.manifest /out:CMakeFiles\\cmTC_5b492.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_1b856.dir/intermediate.manifest /out:CMakeFiles\\cmTC_1b856.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_5b492.dir/manifest.res CMakeFiles\\cmTC_5b492.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_1b856.dir/manifest.res CMakeFiles\\cmTC_1b856.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_5b492.dir\\objects1.rsp /out:cmTC_5b492.exe /implib:cmTC_5b492.lib /pdb:C:\\Users\\egiaz\\Documents\\oganesyan_OOPP_qt6\\build\\VS-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lkan23\\cmTC_5b492.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_5b492.dir/intermediate.manifest CMakeFiles\\cmTC_5b492.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1b856.dir\\objects1.rsp /out:cmTC_1b856.exe /implib:cmTC_1b856.lib /pdb:C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-nwh8fl\\cmTC_1b856.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1b856.dir/intermediate.manifest CMakeFiles\\cmTC_1b856.dir/manifest.res
         
       exitCode: 0
 ...

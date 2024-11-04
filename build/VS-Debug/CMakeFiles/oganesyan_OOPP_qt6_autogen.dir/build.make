@@ -42,10 +42,10 @@ RM = C:\QT\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\egiaz\Documents\oganesyan_OOPP_qt6
+CMAKE_SOURCE_DIR = C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug
+CMAKE_BINARY_DIR = C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug
 
 # Utility rule file for oganesyan_OOPP_qt6_autogen.
 
@@ -60,9 +60,9 @@ CMakeFiles\oganesyan_OOPP_qt6_autogen: oganesyan_OOPP_qt6_autogen\timestamp
 oganesyan_OOPP_qt6_autogen\timestamp: C:\QT\6.8.0\msvc2022_64\bin\moc.exe
 oganesyan_OOPP_qt6_autogen\timestamp: C:\QT\6.8.0\msvc2022_64\bin\uic.exe
 oganesyan_OOPP_qt6_autogen\timestamp: CMakeFiles\oganesyan_OOPP_qt6_autogen.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target oganesyan_OOPP_qt6"
-	C:\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/oganesyan_OOPP_qt6_autogen.dir/AutogenInfo.json Debug
-	C:\QT\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/oganesyan_OOPP_qt6_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target oganesyan_OOPP_qt6"
+	C:\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/oganesyan_OOPP_qt6_autogen.dir/AutogenInfo.json Debug
+	C:\QT\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP_qt6_autogen/timestamp
 
 oganesyan_OOPP_qt6_autogen: CMakeFiles\oganesyan_OOPP_qt6_autogen
 oganesyan_OOPP_qt6_autogen: oganesyan_OOPP_qt6_autogen\timestamp
@@ -78,6 +78,6 @@ CMakeFiles\oganesyan_OOPP_qt6_autogen.dir\clean:
 .PHONY : CMakeFiles\oganesyan_OOPP_qt6_autogen.dir\clean
 
 CMakeFiles\oganesyan_OOPP_qt6_autogen.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles JOM" C:\Users\egiaz\Documents\oganesyan_OOPP_qt6 C:\Users\egiaz\Documents\oganesyan_OOPP_qt6 C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles\oganesyan_OOPP_qt6_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles JOM" C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6 C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6 C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles\oganesyan_OOPP_qt6_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles\oganesyan_OOPP_qt6_autogen.dir\depend
 

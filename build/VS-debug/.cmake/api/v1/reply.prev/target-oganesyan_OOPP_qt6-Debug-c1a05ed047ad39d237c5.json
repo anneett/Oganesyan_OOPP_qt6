@@ -77,7 +77,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 89,
+				"line" : 83,
 				"parent" : 0
 			},
 			{
@@ -89,7 +89,7 @@
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 72,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
@@ -340,7 +340,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/oganesyan_OOPP_qt6_autogen/include"
+					"path" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP_qt6_autogen/include"
 				},
 				{
 					"backtrace" : 41,
@@ -389,19 +389,18 @@
 				2,
 				9,
 				10,
-				11,
-				12
+				11
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "oganesyan_OOPP_qt6_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "oganesyan_OOPP_qt6_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "oganesyan_OOPP_qt6_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "oganesyan_OOPP_qt6::@6890427a1f51a3e7e1df",
@@ -516,8 +515,7 @@
 				2,
 				9,
 				10,
-				11,
-				12
+				11
 			]
 		},
 		{
@@ -529,7 +527,7 @@
 				6,
 				7,
 				8,
-				13
+				12
 			]
 		},
 		{
@@ -537,14 +535,14 @@
 			"sourceIndexes" : 
 			[
 				4,
-				14
+				13
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				15
+				14
 			]
 		}
 	],
@@ -554,7 +552,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/VS-Debug/oganesyan_OOPP_qt6_autogen/mocs_compilation.cpp",
+			"path" : "build/VS-debug/oganesyan_OOPP_qt6_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -608,7 +606,7 @@
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "Boost.cpp",
+			"path" : "Book.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -618,27 +616,21 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
-			"compileGroupIndex" : 0,
-			"path" : "Book.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/VS-Debug/oganesyan_OOPP_qt6_autogen/include/ui_mainwindow.h",
+			"path" : "build/VS-debug/oganesyan_OOPP_qt6_autogen/include/ui_mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/VS-Debug/oganesyan_OOPP_qt6_autogen/timestamp",
+			"path" : "build/VS-debug/oganesyan_OOPP_qt6_autogen/timestamp",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/VS-Debug/oganesyan_OOPP_qt6_autogen/timestamp.rule",
+			"path" : "build/VS-debug/oganesyan_OOPP_qt6_autogen/timestamp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

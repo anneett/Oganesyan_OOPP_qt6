@@ -71,7 +71,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug"
+			"value" : "c:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -447,7 +447,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6"
+			"value" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1011,7 +1011,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/.qtc/package-manager/auto-setup.cmake"
+			"value" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -6347,7 +6347,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug"
+			"value" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug"
 		},
 		{
 			"name" : "oganesyan_OOPP_qt6_IS_TOP_LEVEL",
@@ -6371,7 +6371,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/egiaz/Documents/oganesyan_OOPP_qt6"
+			"value" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6"
 		}
 	],
 	"kind" : "cache",

@@ -19,7 +19,7 @@
 #include <QtWidgets/QScrollArea>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
-#include <C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.h>
+#include <WidgetOganesyan.h>
 
 QT_BEGIN_NAMESPACE
 

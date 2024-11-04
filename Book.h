@@ -1,5 +1,4 @@
-#ifndef BOOK_H
-#define BOOK_H
+#pragma once
 
 #include "Boost.h"
 
@@ -31,5 +30,3 @@ public:
         ar& rating;
     }
 };
-
-#endif // BOOK_H

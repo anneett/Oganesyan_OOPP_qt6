@@ -42,10 +42,10 @@ RM = C:\QT\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\egiaz\Documents\oganesyan_OOPP_qt6
+CMAKE_SOURCE_DIR = C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug
+CMAKE_BINARY_DIR = C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\oganesyan_OOPP_qt6.dir\depend.make
@@ -61,148 +61,128 @@ include CMakeFiles\oganesyan_OOPP_qt6.dir\flags.make
 oganesyan_OOPP_qt6_autogen\timestamp: C:\QT\6.8.0\msvc2022_64\bin\moc.exe
 oganesyan_OOPP_qt6_autogen\timestamp: C:\QT\6.8.0\msvc2022_64\bin\uic.exe
 oganesyan_OOPP_qt6_autogen\timestamp: CMakeFiles\oganesyan_OOPP_qt6.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target oganesyan_OOPP_qt6"
-	C:\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/oganesyan_OOPP_qt6_autogen.dir/AutogenInfo.json Debug
-	C:\QT\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/oganesyan_OOPP_qt6_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target oganesyan_OOPP_qt6"
+	C:\QT\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/oganesyan_OOPP_qt6_autogen.dir/AutogenInfo.json Debug
+	C:\QT\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP_qt6_autogen/timestamp
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\flags.make
 CMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.obj: oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp
 CMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/oganesyan_OOPP_qt6_autogen/mocs_compilation.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/oganesyan_OOPP_qt6_autogen/mocs_compilation.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oganesyan_OOPP_qt6.dir/oganesyan_OOPP_qt6_autogen/mocs_compilation.cpp.i"
 	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe > CMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oganesyan_OOPP_qt6.dir/oganesyan_OOPP_qt6_autogen/mocs_compilation.cpp.s"
 	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.s /c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp.s /c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\oganesyan_OOPP_qt6_autogen\mocs_compilation.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\flags.make
-CMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.obj: C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\main.cpp
+CMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.obj: C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\main.cpp
 CMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/main.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/main.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\main.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oganesyan_OOPP_qt6.dir/main.cpp.i"
 	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe > CMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\main.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oganesyan_OOPP_qt6.dir/main.cpp.s"
 	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.s /c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.s /c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\main.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\flags.make
-CMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.obj: C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\mainwindow.cpp
+CMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.obj: C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\mainwindow.cpp
 CMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/mainwindow.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/mainwindow.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\mainwindow.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oganesyan_OOPP_qt6.dir/mainwindow.cpp.i"
 	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe > CMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\mainwindow.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\mainwindow.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oganesyan_OOPP_qt6.dir/mainwindow.cpp.s"
 	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.s /c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\mainwindow.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.s /c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\mainwindow.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\flags.make
-CMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.obj: C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\WidgetOganesyan.cpp
+CMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.obj: C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\WidgetOganesyan.cpp
 CMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/WidgetOganesyan.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\WidgetOganesyan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/WidgetOganesyan.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\WidgetOganesyan.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oganesyan_OOPP_qt6.dir/WidgetOganesyan.cpp.i"
 	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe > CMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\WidgetOganesyan.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\WidgetOganesyan.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oganesyan_OOPP_qt6.dir/WidgetOganesyan.cpp.s"
 	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.s /c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\WidgetOganesyan.cpp
-<<
-
-CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\flags.make
-CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.obj: C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\Boost.cpp
-CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/Boost.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\Boost.cpp
-<<
-
-CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oganesyan_OOPP_qt6.dir/Boost.cpp.i"
-	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe > CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\Boost.cpp
-<<
-
-CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oganesyan_OOPP_qt6.dir/Boost.cpp.s"
-	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.s /c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\Boost.cpp
-<<
-
-CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\flags.make
-CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj: C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\EBook.cpp
-CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\EBook.cpp
-<<
-
-CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.i"
-	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe > CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\EBook.cpp
-<<
-
-CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.s"
-	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.s /c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\EBook.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.s /c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\WidgetOganesyan.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\flags.make
-CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.obj: C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\Book.cpp
+CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.obj: C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\Book.cpp
 CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\Book.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\Book.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.i"
 	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe > CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\Book.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\Book.cpp
 <<
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.s"
 	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.s /c C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\Book.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.s /c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\Book.cpp
+<<
+
+CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\flags.make
+CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj: C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\EBook.cpp
+CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj: CMakeFiles\oganesyan_OOPP_qt6.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj.d --working-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj /FdCMakeFiles\oganesyan_OOPP_qt6.dir\ /FS -c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\EBook.cpp
+<<
+
+CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.i"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe > CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\EBook.cpp
+<<
+
+CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.s"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.s /c C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\EBook.cpp
 <<
 
 # Object files for target oganesyan_OOPP_qt6
@@ -211,9 +191,8 @@ oganesyan_OOPP_qt6_OBJECTS = \
 "CMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.obj" \
 "CMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.obj" \
 "CMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.obj" \
-"CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.obj" \
-"CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj" \
-"CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.obj"
+"CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.obj" \
+"CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj"
 
 # External object files for target oganesyan_OOPP_qt6
 oganesyan_OOPP_qt6_EXTERNAL_OBJECTS =
@@ -222,18 +201,17 @@ oganesyan_OOPP_qt6.exe: CMakeFiles\oganesyan_OOPP_qt6.dir\oganesyan_OOPP_qt6_aut
 oganesyan_OOPP_qt6.exe: CMakeFiles\oganesyan_OOPP_qt6.dir\main.cpp.obj
 oganesyan_OOPP_qt6.exe: CMakeFiles\oganesyan_OOPP_qt6.dir\mainwindow.cpp.obj
 oganesyan_OOPP_qt6.exe: CMakeFiles\oganesyan_OOPP_qt6.dir\WidgetOganesyan.cpp.obj
-oganesyan_OOPP_qt6.exe: CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.obj
-oganesyan_OOPP_qt6.exe: CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj
 oganesyan_OOPP_qt6.exe: CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.obj
+oganesyan_OOPP_qt6.exe: CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.obj
 oganesyan_OOPP_qt6.exe: CMakeFiles\oganesyan_OOPP_qt6.dir\build.make
 oganesyan_OOPP_qt6.exe: C:\QT\6.8.0\msvc2022_64\lib\Qt6Widgetsd.lib
 oganesyan_OOPP_qt6.exe: C:\QT\6.8.0\msvc2022_64\lib\Qt6Guid.lib
 oganesyan_OOPP_qt6.exe: C:\QT\6.8.0\msvc2022_64\lib\Qt6Cored.lib
 oganesyan_OOPP_qt6.exe: C:\QT\6.8.0\msvc2022_64\lib\Qt6EntryPointd.lib
 oganesyan_OOPP_qt6.exe: CMakeFiles\oganesyan_OOPP_qt6.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable oganesyan_OOPP_qt6.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable oganesyan_OOPP_qt6.exe"
 	C:\QT\Tools\CMake_64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\oganesyan_OOPP_qt6.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\oganesyan_OOPP_qt6.dir\objects1.rsp @<<
- /out:oganesyan_OOPP_qt6.exe /implib:oganesyan_OOPP_qt6.lib /pdb:C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\oganesyan_OOPP_qt6.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:windows   -LIBPATH:C:\Users\egiaz\Documents\oganesyan_oopp_qt\boost_1_86_0\stage\lib  C:\QT\6.8.0\msvc2022_64\lib\Qt6Widgetsd.lib C:\QT\6.8.0\msvc2022_64\lib\Qt6Guid.lib C:\QT\6.8.0\msvc2022_64\lib\Qt6Cored.lib mpr.lib userenv.lib C:\QT\6.8.0\msvc2022_64\lib\Qt6EntryPointd.lib shell32.lib d3d11.lib dxgi.lib dxguid.lib d3d12.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:oganesyan_OOPP_qt6.exe /implib:oganesyan_OOPP_qt6.lib /pdb:C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\oganesyan_OOPP_qt6.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:windows   -LIBPATH:C:\Users\egiaz\Documents\oganesyan_oopp_qt\boost_1_86_0\stage\lib  C:\QT\6.8.0\msvc2022_64\lib\Qt6Widgetsd.lib C:\QT\6.8.0\msvc2022_64\lib\Qt6Guid.lib C:\QT\6.8.0\msvc2022_64\lib\Qt6Cored.lib mpr.lib userenv.lib C:\QT\6.8.0\msvc2022_64\lib\Qt6EntryPointd.lib shell32.lib d3d11.lib dxgi.lib dxguid.lib d3d12.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -245,6 +223,6 @@ CMakeFiles\oganesyan_OOPP_qt6.dir\clean:
 .PHONY : CMakeFiles\oganesyan_OOPP_qt6.dir\clean
 
 CMakeFiles\oganesyan_OOPP_qt6.dir\depend: oganesyan_OOPP_qt6_autogen\timestamp
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles JOM" C:\Users\egiaz\Documents\oganesyan_OOPP_qt6 C:\Users\egiaz\Documents\oganesyan_OOPP_qt6 C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles\oganesyan_OOPP_qt6.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles JOM" C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6 C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6 C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles\oganesyan_OOPP_qt6.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles\oganesyan_OOPP_qt6.dir\depend
 

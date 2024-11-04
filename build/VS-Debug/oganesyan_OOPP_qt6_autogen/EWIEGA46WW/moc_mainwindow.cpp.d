@@ -1,4 +1,4 @@
-C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/oganesyan_OOPP_qt6_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/mainwindow.h \
+C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP_qt6_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.h \
   C:/QT/6.8.0/msvc2022_64/include/QtCore/q20functional.h \
   C:/QT/6.8.0/msvc2022_64/include/QtCore/q20iterator.h \
   C:/QT/6.8.0/msvc2022_64/include/QtCore/q20memory.h \
@@ -174,10 +174,10 @@ C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/oganesyan_OOPP_qt6_au
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsexports.h \
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qwidget.h \
-  C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/Book.h \
-  C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/Boost.h \
-  C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/EBook.h \
-  C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/WidgetOganesyan.h \
+  C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Book.h \
+  C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Boost.h \
+  C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.h \
+  C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.h \
   C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/aligned_storage.hpp \
   C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/archive/archive_exception.hpp \
   C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/archive/basic_archive.hpp \

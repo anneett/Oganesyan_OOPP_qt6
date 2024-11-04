@@ -46,10 +46,10 @@ RM = C:\QT\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\egiaz\Documents\oganesyan_OOPP_qt6
+CMAKE_SOURCE_DIR = C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug
+CMAKE_BINARY_DIR = C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -109,9 +109,9 @@ install\local\fast: preinstall\fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\egiaz\Documents\oganesyan_OOPP_qt6\build\VS-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\egiaz\Documents\GitHub\Oganesyan_OOPP_qt6\build\VS-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -200,30 +200,6 @@ Book.s: Book.cpp.s
 Book.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\Book.cpp.s
 .PHONY : Book.cpp.s
-
-Boost.obj: Boost.cpp.obj
-.PHONY : Boost.obj
-
-# target to build an object file
-Boost.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.obj
-.PHONY : Boost.cpp.obj
-
-Boost.i: Boost.cpp.i
-.PHONY : Boost.i
-
-# target to preprocess a source file
-Boost.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.i
-.PHONY : Boost.cpp.i
-
-Boost.s: Boost.cpp.s
-.PHONY : Boost.s
-
-# target to generate assembly for a file
-Boost.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\Boost.cpp.s
-.PHONY : Boost.cpp.s
 
 EBook.obj: EBook.cpp.obj
 .PHONY : EBook.obj
@@ -362,9 +338,6 @@ help:
 	@echo ... Book.obj
 	@echo ... Book.i
 	@echo ... Book.s
-	@echo ... Boost.obj
-	@echo ... Boost.i
-	@echo ... Boost.s
 	@echo ... EBook.obj
 	@echo ... EBook.i
 	@echo ... EBook.s

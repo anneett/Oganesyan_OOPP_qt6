@@ -4,8 +4,6 @@ file(REMOVE_RECURSE
   "oganesyan_OOPP_qt6_autogen"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.obj"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.obj.d"
-  "CMakeFiles/oganesyan_OOPP_qt6.dir/Boost.cpp.obj"
-  "CMakeFiles/oganesyan_OOPP_qt6.dir/Boost.cpp.obj.d"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.obj"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.obj.d"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/WidgetOganesyan.cpp.obj"

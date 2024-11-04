@@ -360,22 +360,21 @@ oganesyan_OOPP_qt6_autogen/timestamp: \
 	C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake \
 	C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows.cmake \
 	C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/Book.cpp \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/Book.h \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/Boost.cpp \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/Boost.h \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/CMakeLists.txt \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/EBook.cpp \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/EBook.h \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/WidgetOganesyan.cpp \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/WidgetOganesyan.h \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/.qtc/package-manager/auto-setup.cmake \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/build/VS-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/main.cpp \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/mainwindow.cpp \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/mainwindow.h \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Book.cpp \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Book.h \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Boost.h \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/CMakeLists.txt \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.cpp \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.h \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.cpp \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.h \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/.qtc/package-manager/auto-setup.cmake \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/main.cpp \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.cpp \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.h \
 	C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/aligned_storage.hpp \
 	C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/archive/archive_exception.hpp \
 	C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/archive/basic_archive.hpp \
@@ -775,5 +774,5 @@ oganesyan_OOPP_qt6_autogen/timestamp: \
 	C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/type_traits/type_with_alignment.hpp \
 	C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/utility/enable_if.hpp \
 	C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/version.hpp \
-	C:/Users/egiaz/Documents/oganesyan_OOPP_qt6/mainwindow.ui \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.ui \
 	C:/QT/Tools/CMake_64/bin/cmake.exe
