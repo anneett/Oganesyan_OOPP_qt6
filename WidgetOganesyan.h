@@ -3,7 +3,6 @@
 #include "Boost.h"
 #include <qwidget.h>
 #include <QWidget>
-#include <QTableWidget>
 #include <QScrollArea>
 #include "Book.h"
 #include "EBook.h"
@@ -18,7 +17,7 @@ private:
     QScrollArea* scrollArea;
     QStringList headers;
 
-    void drawBookRow(const std::shared_ptr<Book>& book, QPainter& painter, int& row, int rowHeight, const std::vector<int>& columnWidths, int startX, int startY);
+    void drawBookRow(const std::shared_ptr<Book>& book, QPainter& painter, int& row, int rowHeight, const vector<int>& columnWidths, int startX, int startY);
 
 public:
 

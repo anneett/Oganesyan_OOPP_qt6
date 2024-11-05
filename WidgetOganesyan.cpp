@@ -58,7 +58,7 @@ void WidgetOganesyan::paintEvent(QPaintEvent*) {
     }
 
     int row = 1;
-    for_each(books.begin(), books.end(), bind(&WidgetOganesyan::drawBookRow, this, placeholders::_1, ref(painter), ref(row), rowHeight, columnWidths, startX, startY));
+    for_each(books.begin(), books.end(), bind(&WidgetOganesyan::drawBookRow, this, placeholders::_1, ref(painter), ref(row), rowHeight, cref(columnWidths), startX, startY));
     int tableWidth = accumulate(columnWidths.begin(), columnWidths.end(), 0) + startX;
 
     for (int i = 0; i <= numRows; ++i) {
@@ -99,11 +99,14 @@ void WidgetOganesyan::load(const QString& path) {
         return;
     }
 
-    boost::archive::binary_iarchive ia(inFile);
     try {
+        boost::archive::binary_iarchive ia(inFile);
         ia >> books;
-    } catch (const std::exception& e) {
-        qDebug() << "Ошибка десериализации:" << e.what();
+        qDebug() << "Данные успешно загружены.";
+    } catch (const exception& e) {
+        qDebug() << "Ошибка чтения из файла:" << e.what();
+        clean();
+        inFile.close();
         return;
     }
 
@@ -120,5 +123,6 @@ void WidgetOganesyan::save(const QString& path)
 void WidgetOganesyan::clean()
 {
     books.clear();
+    setMinimumSize(0, 0);
     update();
 }

@@ -7,7 +7,6 @@ C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/q20memory.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/q20type_traits.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/q23utility.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qabstractitemmodel.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qalgorithms.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qanystringview.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qarraydata.h
@@ -49,13 +48,11 @@ C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qhash.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qhashfunctions.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qiodevicebase.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qitemselectionmodel.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qiterable.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qiterator.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qlatin1stringview.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qline.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qlist.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qlocale.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qlogging.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qmalloc.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qmap.h
@@ -76,7 +73,6 @@ C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qprocessordetection.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qrect.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qrefcount.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qregularexpression.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qscopedpointer.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qscopeguard.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qset.h
@@ -149,29 +145,16 @@ C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qtguiexports.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qtguiglobal.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qtransform.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qvalidator.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/QMainWindow
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/QScrollArea
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/QTableWidget
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/QWidget
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qabstractitemdelegate.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qabstractitemview.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qabstractscrollarea.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qabstractslider.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qabstractspinbox.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qframe.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qmainwindow.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qrubberband.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qscrollarea.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qsizepolicy.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qslider.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qstyle.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qstyleoption.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtabbar.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtableview.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtablewidget.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtabwidget.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsexports.h
@@ -592,7 +575,6 @@ C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/q20memory.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/q20type_traits.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/q23utility.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qabstractitemmodel.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qalgorithms.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qanystringview.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qarraydata.h
@@ -634,13 +616,11 @@ C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qhash.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qhashfunctions.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qiodevicebase.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qitemselectionmodel.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qiterable.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qiterator.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qlatin1stringview.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qline.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qlist.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qlocale.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qlogging.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qmalloc.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qmap.h
@@ -661,7 +641,6 @@ C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qprocessordetection.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qrect.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qrefcount.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qregularexpression.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qscopedpointer.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qscopeguard.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtCore/qset.h
@@ -734,28 +713,14 @@ C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qtguiexports.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qtguiglobal.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qtransform.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qvalidator.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/QScrollArea
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/QTableWidget
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/QWidget
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qabstractitemdelegate.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qabstractitemview.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qabstractscrollarea.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qabstractslider.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qabstractspinbox.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qframe.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qrubberband.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qscrollarea.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qsizepolicy.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qslider.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qstyle.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qstyleoption.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtabbar.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtableview.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtablewidget.h
- mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtabwidget.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsexports.h
  mdp:C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h

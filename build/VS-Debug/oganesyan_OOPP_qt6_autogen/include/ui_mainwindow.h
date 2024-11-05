@@ -54,17 +54,13 @@ public:
         gridLayout->setObjectName("gridLayout");
         scrollArea = new QScrollArea(centralwidget);
         scrollArea->setObjectName("scrollArea");
-        scrollArea->setFocusPolicy(Qt::FocusPolicy::StrongFocus);
+        scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarPolicy::ScrollBarAsNeeded);
+        scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarPolicy::ScrollBarAsNeeded);
         scrollArea->setWidgetResizable(true);
         widgetOganesyanInstance = new WidgetOganesyan();
         widgetOganesyanInstance->setObjectName("widgetOganesyanInstance");
-        widgetOganesyanInstance->setGeometry(QRect(0, 0, 1200, 1200));
-        QSizePolicy sizePolicy(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
-        sizePolicy.setHorizontalStretch(0);
-        sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(widgetOganesyanInstance->sizePolicy().hasHeightForWidth());
-        widgetOganesyanInstance->setSizePolicy(sizePolicy);
-        widgetOganesyanInstance->setMinimumSize(QSize(1200, 1200));
+        widgetOganesyanInstance->setGeometry(QRect(0, 0, 776, 526));
+        widgetOganesyanInstance->setMinimumSize(QSize(0, 0));
         scrollArea->setWidget(widgetOganesyanInstance);
 
         gridLayout->addWidget(scrollArea, 0, 0, 1, 1);
@@ -81,9 +77,9 @@ public:
         MainWindow->setStatusBar(statusbar);
 
         menubar->addAction(menuFile->menuAction());
+        menuFile->addAction(actionNew);
         menuFile->addAction(actionOpen);
         menuFile->addAction(actionSaveAs);
-        menuFile->addAction(actionNew);
 
         retranslateUi(MainWindow);
 

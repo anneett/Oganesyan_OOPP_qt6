@@ -17,8 +17,11 @@
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
      <widget class="QScrollArea" name="scrollArea">
-      <property name="focusPolicy">
-       <enum>Qt::FocusPolicy::StrongFocus</enum>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAsNeeded</enum>
       </property>
       <property name="widgetResizable">
        <bool>true</bool>
@@ -28,20 +31,14 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>1200</width>
-         <height>1200</height>
+         <width>776</width>
+         <height>526</height>
         </rect>
-       </property>
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
        </property>
        <property name="minimumSize">
         <size>
-         <width>1200</width>
-         <height>1200</height>
+         <width>0</width>
+         <height>0</height>
         </size>
        </property>
       </widget>
@@ -62,9 +59,9 @@
     <property name="title">
      <string>File</string>
     </property>
+    <addaction name="actionNew"/>
     <addaction name="actionOpen"/>
     <addaction name="actionSaveAs"/>
-    <addaction name="actionNew"/>
    </widget>
    <addaction name="menuFile"/>
   </widget>
