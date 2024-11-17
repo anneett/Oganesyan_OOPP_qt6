@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>976</width>
+    <width>1007</width>
     <height>558</height>
    </rect>
   </property>
@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>650</x>
-     <y>480</y>
+     <y>490</y>
      <width>171</width>
      <height>32</height>
     </rect>
@@ -42,8 +42,8 @@
   <widget class="QLabel" name="title">
    <property name="geometry">
     <rect>
-     <x>530</x>
-     <y>40</y>
+     <x>590</x>
+     <y>30</y>
      <width>91</width>
      <height>21</height>
     </rect>
@@ -55,7 +55,7 @@
   <widget class="QLabel" name="author">
    <property name="geometry">
     <rect>
-     <x>530</x>
+     <x>590</x>
      <y>90</y>
      <width>91</width>
      <height>21</height>
@@ -68,8 +68,8 @@
   <widget class="QLabel" name="release">
    <property name="geometry">
     <rect>
-     <x>530</x>
-     <y>140</y>
+     <x>590</x>
+     <y>150</y>
      <width>91</width>
      <height>21</height>
     </rect>
@@ -81,8 +81,8 @@
   <widget class="QLabel" name="publishing">
    <property name="geometry">
     <rect>
-     <x>530</x>
-     <y>200</y>
+     <x>590</x>
+     <y>210</y>
      <width>111</width>
      <height>16</height>
     </rect>
@@ -94,8 +94,8 @@
   <widget class="QLabel" name="instock">
    <property name="geometry">
     <rect>
-     <x>530</x>
-     <y>250</y>
+     <x>590</x>
+     <y>270</y>
      <width>91</width>
      <height>21</height>
     </rect>
@@ -107,8 +107,8 @@
   <widget class="QLabel" name="rating">
    <property name="geometry">
     <rect>
-     <x>530</x>
-     <y>290</y>
+     <x>590</x>
+     <y>330</y>
      <width>91</width>
      <height>21</height>
     </rect>
@@ -120,8 +120,8 @@
   <widget class="QLabel" name="url">
    <property name="geometry">
     <rect>
-     <x>540</x>
-     <y>340</y>
+     <x>590</x>
+     <y>390</y>
      <width>91</width>
      <height>21</height>
     </rect>
@@ -130,31 +130,11 @@
     <string>Ссылка</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="titleEdit">
-   <property name="geometry">
-    <rect>
-     <x>730</x>
-     <y>40</y>
-     <width>191</width>
-     <height>28</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="authorEdit">
-   <property name="geometry">
-    <rect>
-     <x>730</x>
-     <y>90</y>
-     <width>191</width>
-     <height>28</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QLineEdit" name="releaseEdit">
    <property name="geometry">
     <rect>
-     <x>730</x>
-     <y>140</y>
+     <x>760</x>
+     <y>150</y>
      <width>191</width>
      <height>28</height>
     </rect>
@@ -163,8 +143,8 @@
   <widget class="QLineEdit" name="publishingEdit">
    <property name="geometry">
     <rect>
-     <x>730</x>
-     <y>190</y>
+     <x>760</x>
+     <y>210</y>
      <width>191</width>
      <height>28</height>
     </rect>
@@ -173,8 +153,8 @@
   <widget class="QLineEdit" name="instockEdit">
    <property name="geometry">
     <rect>
-     <x>730</x>
-     <y>240</y>
+     <x>760</x>
+     <y>270</y>
      <width>191</width>
      <height>28</height>
     </rect>
@@ -183,8 +163,8 @@
   <widget class="QLineEdit" name="ratingEdit">
    <property name="geometry">
     <rect>
-     <x>730</x>
-     <y>290</y>
+     <x>760</x>
+     <y>330</y>
      <width>191</width>
      <height>28</height>
     </rect>
@@ -193,8 +173,67 @@
   <widget class="QLineEdit" name="urlEdit">
    <property name="geometry">
     <rect>
-     <x>730</x>
-     <y>340</y>
+     <x>760</x>
+     <y>390</y>
+     <width>191</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AddButton">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>440</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="EditButton">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>440</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Редактировать</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DeleteButton">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>440</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Удалить</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="authorEdit">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>90</y>
+     <width>191</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="titleEdit">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>30</y>
      <width>191</width>
      <height>28</height>
     </rect>

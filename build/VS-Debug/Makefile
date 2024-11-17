@@ -225,6 +225,30 @@ EBook.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.s
 .PHONY : EBook.cpp.s
 
+EditBook.obj: EditBook.cpp.obj
+.PHONY : EditBook.obj
+
+# target to build an object file
+EditBook.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\EditBook.cpp.obj
+.PHONY : EditBook.cpp.obj
+
+EditBook.i: EditBook.cpp.i
+.PHONY : EditBook.i
+
+# target to preprocess a source file
+EditBook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\EditBook.cpp.i
+.PHONY : EditBook.cpp.i
+
+EditBook.s: EditBook.cpp.s
+.PHONY : EditBook.s
+
+# target to generate assembly for a file
+EditBook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\EditBook.cpp.s
+.PHONY : EditBook.cpp.s
+
 EditDialog.obj: EditDialog.cpp.obj
 .PHONY : EditDialog.obj
 
@@ -365,6 +389,9 @@ help:
 	@echo ... EBook.obj
 	@echo ... EBook.i
 	@echo ... EBook.s
+	@echo ... EditBook.obj
+	@echo ... EditBook.i
+	@echo ... EditBook.s
 	@echo ... EditDialog.obj
 	@echo ... EditDialog.i
 	@echo ... EditDialog.s

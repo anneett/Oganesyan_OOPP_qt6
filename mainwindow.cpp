@@ -27,9 +27,6 @@ void MainWindow::on_actionOpen_triggered()
     fileName = QFileDialog::getOpenFileName(this, tr("Открыть"), QDir::currentPath(), tr("Файл данных (*.dat)"));
     if (!fileName.isEmpty()) {
         ui->widgetOganesyanInstance->load(fileName);
-
-        // Проверяем после загрузки
-        qDebug() << "Books loaded in WidgetOganesyan: " << ui->widgetOganesyanInstance->books.size();
     }
 }
 void MainWindow::on_actionSaveAs_triggered()
@@ -50,24 +47,31 @@ void MainWindow::save()
     (ui->widgetOganesyanInstance)->save(fileName);
 }
 
+template<class T>
+void clone(T &src, T &trg)
+{
+    stringstream stream;
+    boost::archive::binary_oarchive out(stream);
+    boost::archive::binary_iarchive in(stream);
+    out << src;
+    in >> trg;
+}
+
 void MainWindow::on_actionEdit_books_triggered()
 {
-    // Проверяем, есть ли книги в WidgetOganesyan
-    auto widgetBooks = ui->widgetOganesyanInstance->books;
-    qDebug() << "Books count before opening EditDialog: " << widgetBooks.size();
+    vector<shared_ptr<Book>> books;
+    clone(ui->widgetOganesyanInstance->books, books);
 
-    if (widgetBooks.size() == 0) {
+    if (books.size() == 0) {
         qDebug() << "У вас нет книг для редактирования";
         return;
     }
-    // Создаем диалог и передаем книги из WidgetOganesyan
-    EditDialog dlg(this, ui->widgetOganesyanInstance->books);
 
-    // Проверяем, что книги переданы в конструктор
-    qDebug() << "Books count in EditDialog constructor: " << ui->widgetOganesyanInstance->books.size();
+    EditDialog dlg(this, books);
 
-    // Если изменения подтверждены, обновляем виджет
     if (dlg.exec() == QDialog::Accepted) {
+        clone(books, ui->widgetOganesyanInstance->books);
         ui->widgetOganesyanInstance->update();
     }
 }
+

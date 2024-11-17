@@ -302,6 +302,12 @@
 			null
 		],
 		[
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditBook.h",
+			"MU",
+			"EWIEGA46WW/moc_EditBook.cpp",
+			null
+		],
+		[
 			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditDialog.h",
 			"MU",
 			"EWIEGA46WW/moc_EditDialog.cpp",
@@ -383,6 +389,11 @@
 		],
 		[
 			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditBook.cpp",
 			"MU",
 			null
 		],

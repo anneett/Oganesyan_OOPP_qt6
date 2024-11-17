@@ -351,6 +351,8 @@ oganesyan_OOPP_qt6_autogen/timestamp: \
 	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/CMakeLists.txt \
 	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.cpp \
 	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.h \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditBook.cpp \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditBook.h \
 	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditDialog.cpp \
 	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditDialog.h \
 	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.cpp \
@@ -761,6 +763,7 @@ oganesyan_OOPP_qt6_autogen/timestamp: \
 	C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/type_traits/type_with_alignment.hpp \
 	C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/utility/enable_if.hpp \
 	C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/version.hpp \
+	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditBook.ui \
 	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditDialog.ui \
 	C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.ui \
 	C:/QT/Tools/CMake_64/bin/cmake.exe

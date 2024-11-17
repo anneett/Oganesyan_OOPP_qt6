@@ -2,6 +2,7 @@
 
 #include <QDialog>
 #include "WidgetOganesyan.h"
+#include "EditBook.h"
 
 namespace Ui {
 class EditDialog;
@@ -26,10 +27,12 @@ signals:
 private slots:
     // void on_checkBox_checkStateChanged(const Qt::CheckState&);
     void on_listWidget_currentRowChanged(int currentRow);
+    bool eventFilter(QObject* obj, QEvent* event)  override;
     // void on_spinX_valueChanged(int);
     // void on_spinY_valueChanged(int);
-    // void on_addButton_clicked();
-    // void on_deleteButton_clicked();
+    // void on_AddButton_clicked();
+    void on_EditButton_clicked();
+    void on_DeleteButton_clicked();
     // void on_sliderW_valueChanged(int value);
     // void on_sliderH_valueChanged(int value);
 };

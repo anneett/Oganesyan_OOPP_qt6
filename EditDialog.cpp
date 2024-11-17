@@ -1,30 +1,32 @@
 #include "EditDialog.h"
 #include "ui_EditDialog.h"
 
-// extern QString pointToString(QPointF& p);
-
 EditDialog::EditDialog(QWidget *parent, vector<std::shared_ptr<Book>>& booksRef)
     : QDialog(parent), books(booksRef), ui(new Ui::EditDialog)
 {
     ui->setupUi(this);
-    // ui->checkBox->setChecked(data.labels);
-    qDebug() << "Books count in EditDialog constructor: " << books.size();
+
     for(const auto& book : books)
     {
         QString bookInfo = QString::fromLocal8Bit(book->title);
-        qDebug() << "Adding book: " << bookInfo;
         ui->listWidget->addItem(bookInfo);
     }
-    ui->listWidget->setCurrentRow(0);
-    // ui->sliderH->setValue(data.h);
-    // ui->sliderW->setValue(data.w);
 
-    // connect(ui->listWidget, &QListWidget::currentRowChanged, this, &EditDialog::onBookSelected);
+    ui->titleEdit->setReadOnly(true);
+    ui->authorEdit->setReadOnly(true);
+    ui->releaseEdit->setReadOnly(true);
+    ui->publishingEdit->setReadOnly(true);
+    ui->instockEdit->setReadOnly(true);
+    ui->ratingEdit->setReadOnly(true);
+    ui->urlEdit->setReadOnly(true);
 
-    // // Инициализируем поля для первой книги (если список не пуст)
-    // if (!books.empty()) {
-    //     populateFields(0);
-    // }
+    ui->titleEdit->installEventFilter(this);
+    ui->authorEdit->installEventFilter(this);
+    ui->releaseEdit->installEventFilter(this);
+    ui->publishingEdit->installEventFilter(this);
+    ui->instockEdit->installEventFilter(this);
+    ui->ratingEdit->installEventFilter(this);
+    ui->urlEdit->installEventFilter(this);
 }
 
 EditDialog::~EditDialog()
@@ -32,10 +34,15 @@ EditDialog::~EditDialog()
     delete ui;
 }
 
-// void EditDialog::on_checkBox_checkStateChanged(const Qt::CheckState &state)
-// {
-//     emit setLabels(state == Qt::Checked);
-// }
+bool EditDialog::eventFilter(QObject* obj, QEvent* event)
+{
+    QLineEdit* lineEdit = qobject_cast<QLineEdit*>(obj);
+    if (lineEdit && event->type() == QEvent::KeyPress)
+    {
+        return true;
+    }
+    return QDialog::eventFilter(obj, event);
+}
 
 void EditDialog::on_listWidget_currentRowChanged(int currentRow)
 {
@@ -61,47 +68,60 @@ void EditDialog::on_listWidget_currentRowChanged(int currentRow)
     }
 }
 
-// void EditDialog::on_spinX_valueChanged(int x)
+void EditDialog::on_EditButton_clicked()
+{
+    int currentRow = ui->listWidget->currentRow();
+    if (currentRow < 0 || currentRow >= books.size())
+        return;
+
+    auto book = books[currentRow];
+    EditBook edtBook(this, book);
+
+    if (edtBook.exec() == QDialog::Accepted)
+    {
+        ui->listWidget->item(currentRow)->setText(QString::fromStdString(book->title));
+    }
+}
+
+void EditDialog::on_DeleteButton_clicked()
+{
+    int currentRow = ui->listWidget->currentRow();
+    if(currentRow < 0)
+        return;
+    books.erase(books.begin() + currentRow);
+    delete ui->listWidget->takeItem(currentRow);
+}
+
+// void EditDialog::on_AddButton_clicked()
 // {
-//     int currentRow = ui->listWidget->currentRow();
-//     if(currentRow < 0)
-//         return;
-//     data.points[currentRow].setX(x);
-//     ui->listWidget->currentItem()->setText(pointToString(data.points[currentRow]));
-// }
-
-
-// void EditDialog::on_spinY_valueChanged(int y)
-// {
-//     int currentRow = ui->listWidget->currentRow();
-//     if(currentRow < 0)
-//         return;
-//     data.points[currentRow].setY(y);
-//     ui->listWidget->currentItem()->setText(pointToString(data.points[currentRow]));
-// }
-
-
-// void EditDialog::on_addButton_clicked()
-// {
-//     data.points.push_back(QPointF(data.points.size() * 50, data.points.size() * 50));
+//     books.push_back(QPointF(data.points.size() * 50, data.points.size() * 50));
 //     ui->listWidget->addItem(pointToString(data.points.back()));
 //     ui->listWidget->setCurrentRow(data.points.size()-1);
 //     updateControls();
 // }
 
-
-// void EditDialog::on_deleteButton_clicked()
+// void EditDialog::saveBook(shared_ptr<Book>& book)
 // {
-//     int currentRow = ui->listWidget->currentRow();
-//     if(currentRow < 0)
-//         return;
-//     data.points.erase(data.points.begin() + currentRow);
-//     delete ui->listWidget->takeItem(currentRow);
-//     updateControls();
+//     // Сохраните изменения обратно в объект книги
+//     book->title = ui->titleEdit->text().toStdString();
+//     book->author = ui->authorEdit->text().toStdString();
+//     book->release_year = ui->releaseEdit->value();
+//     book->publishing_house = ui->publishingEdit->text().toStdString();
+//     book->in_stock = ui->ratingEdit->value();
+//     book->rating = ui->urlEdit->text().toStdString();
 // }
 
 
 
+// void EditDialog::updateControls()
+// {
+//     bool show = !data.points.empty();
+//     ui->labelX->setVisible(show);
+//     ui->labelY->setVisible(show);
+//     ui->spinX->setVisible(show);
+//     ui->spinY->setVisible(show);
+//     ui->deleteButton->setEnabled(show);
+// }
 
 // void EditDialog::on_sliderW_valueChanged(int value)
 // {
