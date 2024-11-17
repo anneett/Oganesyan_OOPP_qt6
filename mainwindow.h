@@ -14,7 +14,7 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
     QString fileName;
-    vector<shared_ptr<Book>> books;
+
 
 public:
     MainWindow(QWidget *parent = nullptr);
@@ -25,6 +25,7 @@ public:
         void on_actionOpen_triggered();
         void on_actionSaveAs_triggered();
         void on_actionNew_triggered();
+        void on_actionEdit_books_triggered();
         void save();
 
 private:

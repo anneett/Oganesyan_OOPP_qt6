@@ -13,14 +13,13 @@ class WidgetOganesyan : public QWidget
 
 private:
 
-    vector<shared_ptr<Book>> books;
     QScrollArea* scrollArea;
     QStringList headers;
 
-    void drawBookRow(const std::shared_ptr<Book>& book, QPainter& painter, int& row, int rowHeight, const vector<int>& columnWidths, int startX, int startY);
+    void drawBookRow(const shared_ptr<Book>& book, QPainter& painter, int& row, int rowHeight, const vector<int>& columnWidths, int startX, int startY);
 
 public:
-
+    vector<shared_ptr<Book>> books;
     explicit WidgetOganesyan(QWidget *parent = nullptr);
     void paintEvent(QPaintEvent *event) override;
     void load(const QString& path);

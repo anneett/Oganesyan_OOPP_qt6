@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "oganesyan_OOPP_qt6_autogen/timestamp" "custom" "oganesyan_OOPP_qt6_autogen/deps"
   "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Book.cpp" "CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.obj" "msvc" "CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.obj.d"
   "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.cpp" "CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.obj" "msvc" "CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.obj.d"
+  "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditDialog.cpp" "CMakeFiles/oganesyan_OOPP_qt6.dir/EditDialog.cpp.obj" "msvc" "CMakeFiles/oganesyan_OOPP_qt6.dir/EditDialog.cpp.obj.d"
   "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.cpp" "CMakeFiles/oganesyan_OOPP_qt6.dir/WidgetOganesyan.cpp.obj" "msvc" "CMakeFiles/oganesyan_OOPP_qt6.dir/WidgetOganesyan.cpp.obj.d"
   "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/main.cpp" "CMakeFiles/oganesyan_OOPP_qt6.dir/main.cpp.obj" "msvc" "CMakeFiles/oganesyan_OOPP_qt6.dir/main.cpp.obj.d"
   "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/mainwindow.cpp" "CMakeFiles/oganesyan_OOPP_qt6.dir/mainwindow.cpp.obj" "msvc" "CMakeFiles/oganesyan_OOPP_qt6.dir/mainwindow.cpp.obj.d"

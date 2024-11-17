@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.obj.d"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.obj"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.obj.d"
+  "CMakeFiles/oganesyan_OOPP_qt6.dir/EditDialog.cpp.obj"
+  "CMakeFiles/oganesyan_OOPP_qt6.dir/EditDialog.cpp.obj.d"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/WidgetOganesyan.cpp.obj"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/WidgetOganesyan.cpp.obj.d"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/main.cpp.obj"

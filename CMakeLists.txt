@@ -43,6 +43,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         WidgetOganesyan.cpp
         Book.cpp
         EBook.cpp
+        EditDialog.ui
+        EditDialog.h
+        EditDialog.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET oganesyan_OOPP_qt6 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

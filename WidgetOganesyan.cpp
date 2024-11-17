@@ -102,7 +102,6 @@ void WidgetOganesyan::load(const QString& path) {
     try {
         boost::archive::binary_iarchive ia(inFile);
         ia >> books;
-        qDebug() << "Данные успешно загружены.";
     } catch (const exception& e) {
         qDebug() << "Ошибка чтения из файла:" << e.what();
         clean();

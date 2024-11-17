@@ -225,6 +225,30 @@ EBook.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\EBook.cpp.s
 .PHONY : EBook.cpp.s
 
+EditDialog.obj: EditDialog.cpp.obj
+.PHONY : EditDialog.obj
+
+# target to build an object file
+EditDialog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\EditDialog.cpp.obj
+.PHONY : EditDialog.cpp.obj
+
+EditDialog.i: EditDialog.cpp.i
+.PHONY : EditDialog.i
+
+# target to preprocess a source file
+EditDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\EditDialog.cpp.i
+.PHONY : EditDialog.cpp.i
+
+EditDialog.s: EditDialog.cpp.s
+.PHONY : EditDialog.s
+
+# target to generate assembly for a file
+EditDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\EditDialog.cpp.s
+.PHONY : EditDialog.cpp.s
+
 WidgetOganesyan.obj: WidgetOganesyan.cpp.obj
 .PHONY : WidgetOganesyan.obj
 
@@ -341,6 +365,9 @@ help:
 	@echo ... EBook.obj
 	@echo ... EBook.i
 	@echo ... EBook.s
+	@echo ... EditDialog.obj
+	@echo ... EditDialog.i
+	@echo ... EditDialog.s
 	@echo ... WidgetOganesyan.obj
 	@echo ... WidgetOganesyan.i
 	@echo ... WidgetOganesyan.s
