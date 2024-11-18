@@ -156,6 +156,7 @@ C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsexports.h \
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qwidget.h \
+  C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/AddBook.h \
   C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Book.h \
   C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Boost.h \
   C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.h \

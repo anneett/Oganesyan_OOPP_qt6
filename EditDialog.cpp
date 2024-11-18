@@ -1,5 +1,6 @@
 #include "EditDialog.h"
 #include "ui_EditDialog.h"
+#include <QMessageBox>
 
 EditDialog::EditDialog(QWidget *parent, vector<std::shared_ptr<Book>>& booksRef)
     : QDialog(parent), books(booksRef), ui(new Ui::EditDialog)
@@ -71,9 +72,10 @@ void EditDialog::on_listWidget_currentRowChanged(int currentRow)
 void EditDialog::on_EditButton_clicked()
 {
     int currentRow = ui->listWidget->currentRow();
-    if (currentRow < 0 || currentRow >= books.size())
+    if (currentRow < 0 || currentRow >= books.size()) {
+        QMessageBox::information(this, "Нет книг", "У вас нет книг для редактирования.");
         return;
-
+    }
     auto book = books[currentRow];
     EditBook edtBook(this, book);
 
@@ -87,50 +89,30 @@ void EditDialog::on_EditButton_clicked()
 void EditDialog::on_DeleteButton_clicked()
 {
     int currentRow = ui->listWidget->currentRow();
-    if(currentRow < 0)
+    if (currentRow < 0) {
+        QMessageBox::information(this, "Нет книг", "У вас нет книг для удаления.");
         return;
+    }
     books.erase(books.begin() + currentRow);
     delete ui->listWidget->takeItem(currentRow);
 }
 
-// void EditDialog::on_AddButton_clicked()
-// {
-//     books.push_back(QPointF(data.points.size() * 50, data.points.size() * 50));
-//     ui->listWidget->addItem(pointToString(data.points.back()));
-//     ui->listWidget->setCurrentRow(data.points.size()-1);
-//     updateControls();
-// }
+void EditDialog::on_AddButton_clicked()
+{
+    shared_ptr<Book> book = make_shared<Book>();
+    AddBook addBook(this, book);
 
-// void EditDialog::saveBook(shared_ptr<Book>& book)
-// {
-//     // Сохраните изменения обратно в объект книги
-//     book->title = ui->titleEdit->text().toStdString();
-//     book->author = ui->authorEdit->text().toStdString();
-//     book->release_year = ui->releaseEdit->value();
-//     book->publishing_house = ui->publishingEdit->text().toStdString();
-//     book->in_stock = ui->ratingEdit->value();
-//     book->rating = ui->urlEdit->text().toStdString();
-// }
+    if (addBook.exec() == QDialog::Accepted)
+    {
+        QString bookInfo = QString::fromLocal8Bit(book->title.c_str());
 
+        if (auto eBook = dynamic_pointer_cast<EBook>(book)) {
+            bookInfo += QString::fromLocal8Bit(eBook->link.c_str());
+        }
 
-
-// void EditDialog::updateControls()
-// {
-//     bool show = !data.points.empty();
-//     ui->labelX->setVisible(show);
-//     ui->labelY->setVisible(show);
-//     ui->spinX->setVisible(show);
-//     ui->spinY->setVisible(show);
-//     ui->deleteButton->setEnabled(show);
-// }
-
-// void EditDialog::on_sliderW_valueChanged(int value)
-// {
-//     emit setWidth(value);
-// }
-
-
-// void EditDialog::on_sliderH_valueChanged(int value)
-// {
-//     emit setHeight(value);
-// }
+        books.push_back(book);
+        ui->listWidget->addItem(bookInfo);
+        ui->listWidget->setCurrentRow(books.size() - 1);
+        on_listWidget_currentRowChanged(books.size() - 1);
+    }
+}

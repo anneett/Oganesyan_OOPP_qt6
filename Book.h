@@ -14,7 +14,7 @@ public:
 
     string title = "";
     string author = "";
-    int release_year = 0;
+    int release_year;
     string publishing_house = "";
     bool in_stock = 0;
     double rating = 0;

@@ -62,11 +62,6 @@ void MainWindow::on_actionEdit_books_triggered()
     vector<shared_ptr<Book>> books;
     clone(ui->widgetOganesyanInstance->books, books);
 
-    if (books.size() == 0) {
-        qDebug() << "У вас нет книг для редактирования";
-        return;
-    }
-
     EditDialog dlg(this, books);
 
     if (dlg.exec() == QDialog::Accepted) {

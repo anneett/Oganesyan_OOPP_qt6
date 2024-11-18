@@ -1,6 +1,8 @@
 #include "EditBook.h"
 #include "ui_EditBook.h"
 
+#include <QMessageBox>
+
 EditBook::EditBook(QWidget *parent, shared_ptr<Book>& bookRef)
     : QDialog(parent), book(bookRef), ui(new Ui::EditBook)
 {
@@ -32,17 +34,51 @@ EditBook::~EditBook()
 
 void EditBook::accept()
 {
-    book->title = ui->titleEditBook->text().toLocal8Bit().constData();
-    book->author = ui->authorEditBook->text().toLocal8Bit().constData();
-    book->release_year = ui->releaseEditBook->text().toInt();
-book->publishing_house = ui->publishingEditBook->text().toLocal8Bit().constData();
-    book->in_stock = ui->in_stockEditBook->text().toInt();
-    book->rating = ui->ratingEditBook->text().toInt();
+    bool valid = true;
 
-    auto eBook = dynamic_pointer_cast<EBook>(book);
-    if (eBook) {
-        eBook->link = ui->urlEditBook->text().toLocal8Bit().constData();
+    QString title = ui->titleEditBook->text();
+    if (title.isEmpty()) {
+        QMessageBox::warning(this, "Ошибка ввода", "Название книги не может быть пустым.");
+        valid = false;
     }
 
-    QDialog::accept();
+    int releaseYear = ui->releaseEditBook->text().toInt();
+    if (releaseYear < 1000 || releaseYear > 2024) {
+        QMessageBox::warning(this, "Ошибка ввода", "Год выпуска должен быть в пределах от 1000 до 2024.");
+        valid = false;
+    }
+
+    QString publishingHouse = ui->publishingEditBook->text();
+    if (publishingHouse.isEmpty()) {
+        QMessageBox::warning(this, "Ошибка ввода", "Издательство не может быть пустым.");
+        valid = false;
+    }
+
+    int in_stock = ui->in_stockEditBook->text().toInt();
+    if (in_stock < 0 || in_stock > 1) {
+        QMessageBox::warning(this, "Ошибка ввода", "Показатель 'В наличии' должен быть 0 или 1.");
+        valid = false;
+    }
+
+    double rating = ui->ratingEditBook->text().toDouble();
+    if (rating < 0.0 || rating > 5.0) {
+        QMessageBox::warning(this, "Ошибка ввода", "Рейтинг должен быть числом от 0.0 до 5.0.");
+        valid = false;
+    }
+
+    if (valid) {
+        book->title = ui->titleEditBook->text().toLocal8Bit().constData();
+        book->author = ui->authorEditBook->text().toLocal8Bit().constData();
+        book->release_year = ui->releaseEditBook->text().toInt();
+        book->publishing_house = ui->publishingEditBook->text().toLocal8Bit().constData();
+        book->in_stock = ui->in_stockEditBook->text().toInt();
+        book->rating = ui->ratingEditBook->text().toInt();
+
+        auto eBook = dynamic_pointer_cast<EBook>(book);
+        if (eBook) {
+            eBook->link = ui->urlEditBook->text().toLocal8Bit().constData();
+        }
+
+        QDialog::accept();
+    }
 }

@@ -16,9 +16,12 @@ class AddBook : public QDialog
 public:
     explicit AddBook(QWidget *parent, shared_ptr<Book>& bookRef);
     ~AddBook();
+    void setLabels(bool);
+    void on_checkBox_checkStateChanged(const Qt::CheckState &state);
 
 private:
     Ui::AddBook *ui;
+    void accept();
 
 signals:
 
