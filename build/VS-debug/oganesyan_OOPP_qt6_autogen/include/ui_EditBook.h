@@ -42,10 +42,10 @@ public:
     {
         if (EditBook->objectName().isEmpty())
             EditBook->setObjectName("EditBook");
-        EditBook->resize(807, 540);
+        EditBook->resize(781, 516);
         buttonBox = new QDialogButtonBox(EditBook);
         buttonBox->setObjectName("buttonBox");
-        buttonBox->setGeometry(QRect(310, 460, 171, 32));
+        buttonBox->setGeometry(QRect(310, 450, 171, 32));
         buttonBox->setOrientation(Qt::Orientation::Horizontal);
         buttonBox->setStandardButtons(QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Ok);
         titleBook = new QLabel(EditBook);

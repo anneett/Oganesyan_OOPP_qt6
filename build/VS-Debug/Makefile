@@ -177,6 +177,30 @@ oganesyan_OOPP_qt6_autogen\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6_autogen.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6_autogen.dir\build
 .PHONY : oganesyan_OOPP_qt6_autogen\fast
 
+AddBook.obj: AddBook.cpp.obj
+.PHONY : AddBook.obj
+
+# target to build an object file
+AddBook.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\AddBook.cpp.obj
+.PHONY : AddBook.cpp.obj
+
+AddBook.i: AddBook.cpp.i
+.PHONY : AddBook.i
+
+# target to preprocess a source file
+AddBook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\AddBook.cpp.i
+.PHONY : AddBook.cpp.i
+
+AddBook.s: AddBook.cpp.s
+.PHONY : AddBook.s
+
+# target to generate assembly for a file
+AddBook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oganesyan_OOPP_qt6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\oganesyan_OOPP_qt6.dir\AddBook.cpp.s
+.PHONY : AddBook.cpp.s
+
 Book.obj: Book.cpp.obj
 .PHONY : Book.obj
 
@@ -383,6 +407,9 @@ help:
 	@echo ... oganesyan_OOPP_qt6_autogen
 	@echo ... oganesyan_OOPP_qt6_autogen_timestamp_deps
 	@echo ... oganesyan_OOPP_qt6
+	@echo ... AddBook.obj
+	@echo ... AddBook.i
+	@echo ... AddBook.s
 	@echo ... Book.obj
 	@echo ... Book.i
 	@echo ... Book.s

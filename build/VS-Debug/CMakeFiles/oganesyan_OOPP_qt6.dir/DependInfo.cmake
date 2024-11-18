@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "oganesyan_OOPP_qt6_autogen/timestamp" "custom" "oganesyan_OOPP_qt6_autogen/deps"
+  "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/AddBook.cpp" "CMakeFiles/oganesyan_OOPP_qt6.dir/AddBook.cpp.obj" "msvc" "CMakeFiles/oganesyan_OOPP_qt6.dir/AddBook.cpp.obj.d"
   "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Book.cpp" "CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.obj" "msvc" "CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.obj.d"
   "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.cpp" "CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.obj" "msvc" "CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.obj.d"
   "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditBook.cpp" "CMakeFiles/oganesyan_OOPP_qt6.dir/EditBook.cpp.obj" "msvc" "CMakeFiles/oganesyan_OOPP_qt6.dir/EditBook.cpp.obj.d"

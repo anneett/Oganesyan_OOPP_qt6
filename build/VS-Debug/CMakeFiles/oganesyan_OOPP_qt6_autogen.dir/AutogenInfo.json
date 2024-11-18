@@ -284,6 +284,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/AddBook.h",
+			"MU",
+			"EWIEGA46WW/moc_AddBook.cpp",
+			null
+		],
+		[
 			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Book.h",
 			"MU",
 			"EWIEGA46WW/moc_Book.cpp",
@@ -382,6 +388,11 @@
 	"SETTINGS_FILE" : "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/oganesyan_OOPP_qt6_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/AddBook.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Book.cpp",
 			"MU",

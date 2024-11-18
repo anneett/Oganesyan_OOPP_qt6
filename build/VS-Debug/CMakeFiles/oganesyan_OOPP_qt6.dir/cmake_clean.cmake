@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/oganesyan_OOPP_qt6_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/oganesyan_OOPP_qt6_autogen.dir/ParseCache.txt"
   "oganesyan_OOPP_qt6_autogen"
+  "CMakeFiles/oganesyan_OOPP_qt6.dir/AddBook.cpp.obj"
+  "CMakeFiles/oganesyan_OOPP_qt6.dir/AddBook.cpp.obj.d"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.obj"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/Book.cpp.obj.d"
   "CMakeFiles/oganesyan_OOPP_qt6.dir/EBook.cpp.obj"

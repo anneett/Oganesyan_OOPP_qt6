@@ -79,7 +79,8 @@ void EditDialog::on_EditButton_clicked()
 
     if (edtBook.exec() == QDialog::Accepted)
     {
-        ui->listWidget->item(currentRow)->setText(QString::fromStdString(book->title));
+        ui->listWidget->item(currentRow)->setText(QString::fromLocal8Bit(book->title.c_str()));
+        on_listWidget_currentRowChanged(currentRow);
     }
 }
 

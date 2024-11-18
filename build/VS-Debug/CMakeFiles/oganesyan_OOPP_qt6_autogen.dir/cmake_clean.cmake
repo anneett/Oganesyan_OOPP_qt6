@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/oganesyan_OOPP_qt6_autogen"
+  "oganesyan_OOPP_qt6_autogen/include/ui_AddBook.h"
   "oganesyan_OOPP_qt6_autogen/include/ui_EditBook.h"
   "oganesyan_OOPP_qt6_autogen/include/ui_EditDialog.h"
   "oganesyan_OOPP_qt6_autogen/include/ui_mainwindow.h"

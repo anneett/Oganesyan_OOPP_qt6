@@ -29,3 +29,20 @@ EditBook::~EditBook()
 {
     delete ui;
 }
+
+void EditBook::accept()
+{
+    book->title = ui->titleEditBook->text().toLocal8Bit().constData();
+    book->author = ui->authorEditBook->text().toLocal8Bit().constData();
+    book->release_year = ui->releaseEditBook->text().toInt();
+book->publishing_house = ui->publishingEditBook->text().toLocal8Bit().constData();
+    book->in_stock = ui->in_stockEditBook->text().toInt();
+    book->rating = ui->ratingEditBook->text().toInt();
+
+    auto eBook = dynamic_pointer_cast<EBook>(book);
+    if (eBook) {
+        eBook->link = ui->urlEditBook->text().toLocal8Bit().constData();
+    }
+
+    QDialog::accept();
+}
