@@ -29,4 +29,13 @@ public:
         ar& in_stock;
         ar& rating;
     }
+
+    virtual void copyFrom(const Book& other) {
+        title = other.title;
+        author = other.author;
+        release_year = other.release_year;
+        publishing_house = other.publishing_house;
+        in_stock = other.in_stock;
+        rating = other.rating;
+    }
 };

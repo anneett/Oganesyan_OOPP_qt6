@@ -13,6 +13,11 @@ EditDialog::EditDialog(QWidget *parent, vector<std::shared_ptr<Book>>& booksRef)
         ui->listWidget->addItem(bookInfo);
     }
 
+    if (ui->listWidget->count() > 0) {
+        ui->listWidget->setCurrentRow(0);
+        on_listWidget_currentRowChanged(0);
+    }
+
     ui->titleEdit->setReadOnly(true);
     ui->authorEdit->setReadOnly(true);
     ui->releaseEdit->setReadOnly(true);
@@ -99,20 +104,42 @@ void EditDialog::on_DeleteButton_clicked()
 
 void EditDialog::on_AddButton_clicked()
 {
-    shared_ptr<Book> book = make_shared<Book>();
-    AddBook addBook(this, book);
+    // shared_ptr<Book> book = make_shared<Book>();
 
-    if (addBook.exec() == QDialog::Accepted)
-    {
-        QString bookInfo = QString::fromLocal8Bit(book->title.c_str());
+    // qDebug() << "Use count before dialog:" << book.use_count();
+    // AddBook addBook(this, book);
 
-        if (auto eBook = dynamic_pointer_cast<EBook>(book)) {
-            bookInfo += QString::fromLocal8Bit(eBook->link.c_str());
+    // if (addBook.exec() == QDialog::Accepted) {
+    //     qDebug() << "Use count after dialog:" << book.use_count();
+    //     qDebug() << "Book title after dialog:" << QString::fromLocal8Bit(book->title.c_str());
+    //     qDebug() << "Book author after dialog:" << QString::fromLocal8Bit(book->author.c_str());
+
+    //     QString bookInfo = QString::fromLocal8Bit(book->title.c_str());
+
+    //     if (auto eBook = dynamic_pointer_cast<EBook>(book)) {
+    //         bookInfo += QString::fromLocal8Bit(eBook->link.c_str());
+    //     }
+
+    //     books.push_back(book);
+    //     ui->listWidget->addItem(bookInfo);
+    //     ui->listWidget->setCurrentRow(books.size() - 1);
+    //     on_listWidget_currentRowChanged(books.size() - 1);
+    // }
+    shared_ptr<Book> newBook;
+    AddBook addBook(this, newBook);
+
+    if (addBook.exec() == QDialog::Accepted) {
+        newBook = addBook.getNewBook();
+        if (newBook) {
+            books.push_back(newBook);
+                 QString bookInfo = QString::fromLocal8Bit(newBook->title.c_str());
+                 ui->listWidget->addItem(bookInfo);
+                 ui->listWidget->setCurrentRow(books.size() - 1);
+                 on_listWidget_currentRowChanged(books.size() - 1);
+        } else {
+            qDebug() << "Ошибка: Песня не была создана!";
         }
-
-        books.push_back(book);
-        ui->listWidget->addItem(bookInfo);
-        ui->listWidget->setCurrentRow(books.size() - 1);
-        on_listWidget_currentRowChanged(books.size() - 1);
+    } else {
+        qDebug() << "Добавление песни отменено.";
     }
 }

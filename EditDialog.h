@@ -18,15 +18,12 @@ public:
     explicit EditDialog(QWidget *parent, vector<shared_ptr<Book>>& booksRef);
     ~EditDialog();
 
+
 private:
     Ui::EditDialog *ui;
-    // void updateControls();
 signals:
-    // void setLabels(bool);
-    // void setWidth(int);
-    // void setHeight(int);
+
 private slots:
-    // void on_checkBox_checkStateChanged(const Qt::CheckState&);
     void on_listWidget_currentRowChanged(int currentRow);
     bool eventFilter(QObject* obj, QEvent* event)  override;
     void on_AddButton_clicked();
