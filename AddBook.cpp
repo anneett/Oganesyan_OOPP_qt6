@@ -2,29 +2,34 @@
 #include "ui_AddBook.h"
 #include <QMessageBox>
 
-AddBook::AddBook(QWidget *parent, shared_ptr<Book>& _book)
-    : QDialog(parent), ui(new Ui::AddBook)
+AddBook::AddBook(QWidget *parent, shared_ptr<Book>& _book, Mode mode)
+    : QDialog(parent), ui(new Ui::AddBook), book(_book), currentMode(mode)
 {
     ui->setupUi(this);
-    book=_book;
 
-    // ui->titleAdd->setText(QString::fromLocal8Bit(book->title.c_str()));
-    // ui->authorAdd->setText(QString::fromLocal8Bit(book->author.c_str()));
-    // ui->releaseAdd->setText(QString::number(book->release_year));
-    // ui->publishingAdd->setText(QString::fromLocal8Bit(book->publishing_house.c_str()));
-    // ui->instockAdd->setText(QString::number(book->in_stock));
-    // ui->ratingAdd->setText(QString::number(book->rating));
+    QFont font;
+    font.setPointSize(11);
+    this->setFont(font);
 
-    // auto eBook = dynamic_pointer_cast<EBook>(book);
-    // if (eBook) {
-    //     ui->urlAdd->setText(QString::fromLocal8Bit(eBook->link.c_str()));
-    // } else {
-    //     ui->urlAdd->clear();
-    // }
+    setupUiByMode();
 
-    bool isChecked = ui->checkBox->isChecked();
-    ui->urlAdd->setVisible(isChecked);
-    ui->Aurl->setVisible(isChecked);
+    if (currentMode == Edit && book) {
+        ui->titleAdd->setText(QString::fromLocal8Bit(book->title.c_str()));
+        ui->authorAdd->setText(QString::fromLocal8Bit(book->author.c_str()));
+        ui->releaseAdd->setText(QString::number(book->release_year));
+        ui->publishingAdd->setText(QString::fromLocal8Bit(book->publishing_house.c_str()));
+        ui->instockAdd->setText(QString::number(book->in_stock));
+        ui->ratingAdd->setText(QString::number(book->rating));
+
+        auto eBook = dynamic_pointer_cast<EBook>(book);
+        if (eBook) {
+            ui->urlAdd->setText(QString::fromLocal8Bit(eBook->link.c_str()));
+            ui->checkBox->setChecked(true);
+        } else {
+            ui->urlAdd->clear();
+            ui->checkBox->setChecked(false);
+        }
+    }
 
     connect(ui->checkBox, &QCheckBox::checkStateChanged, this, &AddBook::on_checkBox_checkStateChanged);
 }
@@ -34,15 +39,26 @@ AddBook::~AddBook()
     delete ui;
 }
 
-void AddBook::on_checkBox_checkStateChanged(const Qt::CheckState &state)
+void AddBook::setupUiByMode()
 {
-    setLabels(state == Qt::Checked);
+    if (currentMode == Edit) {
+        ui->checkBox->hide();
+        ui->checkmessage->hide();
+    }
+
+    bool isChecked = ui->checkBox->isChecked();
+    setLabels(isChecked);
 }
 
 void AddBook::setLabels(bool checked)
 {
     ui->urlAdd->setVisible(checked);
     ui->Aurl->setVisible(checked);
+}
+
+void AddBook::on_checkBox_checkStateChanged(const Qt::CheckState &state)
+{
+    setLabels(state == Qt::Checked);
 }
 
 void AddBook::accept()
@@ -78,26 +94,24 @@ void AddBook::accept()
         QMessageBox::warning(this, "Ошибка ввода", "Рейтинг должен быть числом от 0.0 до 5.0.");
         valid = false;
     }
+
     if (!valid)
         return;
 
     bool isChecked = ui->checkBox->isChecked();
-   // ui->checkBox->isChecked();
     if (isChecked) {
-        auto Ebook = make_shared<EBook>();
+        auto eBook = make_shared<EBook>();
+        eBook->title = ui->titleAdd->text().toLocal8Bit().constData();
+        eBook->author = ui->authorAdd->text().toLocal8Bit().constData();
+        eBook->release_year = ui->releaseAdd->text().toInt();
+        eBook->publishing_house = ui->publishingAdd->text().toLocal8Bit().constData();
+        eBook->in_stock = ui->instockAdd->text().toInt();
+        eBook->rating = ui->ratingAdd->text().toDouble();
+        eBook->link = ui->urlAdd->text().toLocal8Bit().constData();
 
-        Ebook->title = ui->titleAdd->text().toLocal8Bit().constData();
-        Ebook->author = ui->authorAdd->text().toLocal8Bit().constData();
-        Ebook->release_year = ui->releaseAdd->text().toInt();
-        Ebook->publishing_house = ui->publishingAdd->text().toLocal8Bit().constData();
-        Ebook->in_stock = ui->instockAdd->text().toInt();
-        Ebook->rating = ui->ratingAdd->text().toDouble();
-        Ebook->link = ui->urlAdd->text().toLocal8Bit().constData();
-
-        book=Ebook;
+        book = eBook;
     } else {
         book = make_shared<Book>();
-
         book->title = ui->titleAdd->text().toLocal8Bit().constData();
         book->author = ui->authorAdd->text().toLocal8Bit().constData();
         book->release_year = ui->releaseAdd->text().toInt();
@@ -105,5 +119,6 @@ void AddBook::accept()
         book->in_stock = ui->instockAdd->text().toInt();
         book->rating = ui->ratingAdd->text().toDouble();
     }
+
     QDialog::accept();
 }

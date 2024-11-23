@@ -161,7 +161,6 @@ C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP
   C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Boost.h \
   C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.h \
   C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditBook.h \
-  C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditDialog.h \
   C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.h \
   C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/aligned_storage.hpp \
   C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/archive/archive_exception.hpp \

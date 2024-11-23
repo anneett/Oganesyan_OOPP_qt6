@@ -1,30 +1,25 @@
-#ifndef EDITBOOK_H
-#define EDITBOOK_H
+// #ifndef EDITBOOK_H
+// #define EDITBOOK_H
 
-#include <QDialog>
-#include "EditDialog.h"
+// #include <QDialog>
+// #include "EditDialog.h"
 
-namespace Ui {
-class EditBook;
-}
+// namespace Ui {
+// class EditBook;
+// }
 
-class EditBook : public QDialog
-{
-    Q_OBJECT
-    shared_ptr<Book> book;
+// class EditBook : public QDialog
+// {
+//     Q_OBJECT
+//     shared_ptr<Book> book;
 
-public:
-    explicit EditBook(QWidget *parent, shared_ptr<Book>& bookRef);
-    ~EditBook();
+// public:
+//     explicit EditBook(QWidget *parent, shared_ptr<Book>& bookRef);
+//     ~EditBook();
 
-private:
-    Ui::EditBook *ui;
-    void accept();
+// private:
+//     Ui::EditBook *ui;
+//     void accept();
+// };
 
-signals:
-
-private slots:
-
-};
-
-#endif // EDITBOOK_H
+// #endif // EDITBOOK_H

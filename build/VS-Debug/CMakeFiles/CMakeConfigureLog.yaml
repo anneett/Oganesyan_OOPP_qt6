@@ -356,3 +356,127 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/cl.exe 
+      Build flags: -DQT_QML_DEBUG;/DWIN32;/D_WINDOWS;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      0
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.42.34433 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.42.34433.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Примечание: включение файла:  C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Примечание: включение файла:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-oleu6m"
+      binary: "C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-oleu6m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/CMakeFiles/CMakeScratch/TryCompile-oleu6m'
+        
+        Run Build Command(s): C:/QT/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_d47e1\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_d47e1.dir\\build.make /nologo -L CMakeFiles\\cmTC_d47e1.dir\\build
+        Building CXX object CMakeFiles/cmTC_d47e1.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_d47e1.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oleu6m --filter-prefix="╤?е?╤ў╤м╤це?╤°╤л╤ў╤ц: ╤¤╤з╤пе?е?╤ц╤л╤ў╤ц е?╤°╤√╤п╤°:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\egiaz\\AppData\\Local\\Temp\\CMakeCXXCompilerABI.cpp.obj.53320.0.jom
+        CMakeCXXCompilerABI.cpp
+        ╨Я╤А╨╕╨╝╨╡╤З╨░╨╜╨╕╨╡: ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡ ╤Д╨░╨╣╨╗╨░:  C:\\QT\\Tools\\CMake_64\\share\\cmake-3.29\\Modules\\CMakeCompilerABI.h
+        Linking CXX executable cmTC_d47e1.exe
+        	C:\\QT\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d47e1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\HostX64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d47e1.dir\\objects1.rsp @C:\\Users\\egiaz\\AppData\\Local\\Temp\\cmTC_d47e1.exe.53320.407.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_d47e1.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_d47e1.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_d47e1.dir/manifest.res CMakeFiles\\cmTC_d47e1.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\HostX64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d47e1.dir\\objects1.rsp /out:cmTC_d47e1.exe /implib:cmTC_d47e1.lib /pdb:C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oleu6m\\cmTC_d47e1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d47e1.dir/intermediate.manifest CMakeFiles\\cmTC_d47e1.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_d47e1.dir/intermediate.manifest /out:CMakeFiles\\cmTC_d47e1.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_d47e1.dir/manifest.res CMakeFiles\\cmTC_d47e1.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\HostX64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d47e1.dir\\objects1.rsp /out:cmTC_d47e1.exe /implib:cmTC_d47e1.lib /pdb:C:\\Users\\egiaz\\Documents\\GitHub\\Oganesyan_OOPP_qt6\\build\\VS-debug\\CMakeFiles\\CMakeScratch\\TryCompile-oleu6m\\cmTC_d47e1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d47e1.dir/intermediate.manifest CMakeFiles\\cmTC_d47e1.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/QT/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34433.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

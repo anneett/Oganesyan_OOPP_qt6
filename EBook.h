@@ -30,17 +30,6 @@ public:
         ar & boost::serialization::base_object<Book>(*this);
         ar & link;
     }
-
-    void copyFrom(const Book& other) override {
-        // Сначала копируем общие поля
-        Book::copyFrom(other);
-
-        // Если other — EBook, копируем и link
-        const EBook* eBook = dynamic_cast<const EBook*>(&other);
-        if (eBook) {
-            link = eBook->link;
-        }
-    }
 };
 
 BOOST_CLASS_VERSION(EBook, 1)

@@ -13,7 +13,6 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarAsNeeded);
     ui->scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAsNeeded);
-
     ui->scrollArea->setWidgetResizable(true);
 }
 

@@ -2,7 +2,8 @@
 #define ADDBOOK_H
 
 #include <QDialog>
-#include "EditDialog.h"
+#include "Book.h"
+#include "EBook.h"
 
 namespace Ui {
 class AddBook;
@@ -14,20 +15,21 @@ class AddBook : public QDialog
     shared_ptr<Book> book;
 
 public:
-    explicit AddBook(QWidget *parent, std::shared_ptr<Book>&);
+    enum Mode { Add, Edit };
+
+    explicit AddBook(QWidget *parent, std::shared_ptr<Book>&, Mode mode = Add);
     ~AddBook();
-    void setLabels(bool);
-    void on_checkBox_checkStateChanged(const Qt::CheckState &state);
-    std::shared_ptr<Book> getNewBook() const { return book; }
+    shared_ptr<Book> getNewBook() const { return book; }
 
 private:
     Ui::AddBook *ui;
-    void accept();
-
-signals:
+    Mode currentMode;
+    void setLabels(bool checked);
+    void setupUiByMode();
+    void accept() override;
 
 private slots:
-
+    void on_checkBox_checkStateChanged(const Qt::CheckState &state);
 };
 
 #endif // ADDBOOK_H

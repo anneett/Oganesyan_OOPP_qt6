@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <functional>
 #include <QFontMetrics>
+#include <QMessageBox>
 
 WidgetOganesyan::WidgetOganesyan(QWidget *parent)
     : QWidget{parent} {
@@ -58,7 +59,11 @@ void WidgetOganesyan::paintEvent(QPaintEvent*) {
     }
 
     int row = 1;
-    for_each(books.begin(), books.end(), bind(&WidgetOganesyan::drawBookRow, this, placeholders::_1, ref(painter), ref(row), rowHeight, cref(columnWidths), startX, startY));
+
+    for_each(books.begin(), books.end(), [&painter, &row, rowHeight, &columnWidths, startX, startY, this](const std::shared_ptr<Book>& book) {
+        this->drawBookRow(book, painter, row, rowHeight, columnWidths, startX, startY);
+    });
+
     int tableWidth = accumulate(columnWidths.begin(), columnWidths.end(), 0) + startX;
 
     for (int i = 0; i <= numRows; ++i) {
@@ -84,7 +89,7 @@ void WidgetOganesyan::drawBookRow(const shared_ptr<Book>& book, QPainter& painte
 
     auto eBook = dynamic_pointer_cast<EBook>(book);
     if (eBook) {
-        painter.drawText(startX + 8 + columnWidths[0] + columnWidths[1] + columnWidths[2] + columnWidths[3] + columnWidths[4] + columnWidths[5], yPosition, QString::fromStdString(eBook->link));
+        painter.drawText(startX + 8 + columnWidths[0] + columnWidths[1] + columnWidths[2] + columnWidths[3] + columnWidths[4] + columnWidths[5], yPosition, QString::fromLocal8Bit(eBook->link));
     } else {
         painter.drawText(startX + 8 + columnWidths[0] + columnWidths[1] + columnWidths[2] + columnWidths[3] + columnWidths[4] + columnWidths[5], yPosition, "N/A");
     }
@@ -95,7 +100,7 @@ void WidgetOganesyan::drawBookRow(const shared_ptr<Book>& book, QPainter& painte
 void WidgetOganesyan::load(const QString& path) {
     ifstream inFile(path.toStdString(), ios::binary);
     if (!inFile) {
-        qDebug() << "Не удалось открыть файл для чтения.";
+        QMessageBox::information(this, "Ошибка чтения", "Не удалось открыть файл для чтения.");
         return;
     }
 
@@ -103,7 +108,7 @@ void WidgetOganesyan::load(const QString& path) {
         boost::archive::binary_iarchive ia(inFile);
         ia >> books;
     } catch (const exception& e) {
-        qDebug() << "Ошибка чтения из файла:" << e.what();
+        QMessageBox::information(this, "Ошибка чтения", QString("Ошибка чтения из файла: %1").arg(e.what()));
         clean();
         inFile.close();
         return;

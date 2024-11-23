@@ -7,6 +7,10 @@ EditDialog::EditDialog(QWidget *parent, vector<std::shared_ptr<Book>>& booksRef)
 {
     ui->setupUi(this);
 
+    QFont font;
+    font.setPointSize(11);
+    this->setFont(font);
+
     for(const auto& book : books)
     {
         QString bookInfo = QString::fromLocal8Bit(book->title);
@@ -81,13 +85,21 @@ void EditDialog::on_EditButton_clicked()
         QMessageBox::information(this, "Нет книг", "У вас нет книг для редактирования.");
         return;
     }
-    auto book = books[currentRow];
-    EditBook edtBook(this, book);
 
-    if (edtBook.exec() == QDialog::Accepted)
-    {
-        ui->listWidget->item(currentRow)->setText(QString::fromLocal8Bit(book->title.c_str()));
-        on_listWidget_currentRowChanged(currentRow);
+    auto book = books[currentRow];
+
+    AddBook editBookDialog(this, book, AddBook::Edit);
+
+    if (editBookDialog.exec() == QDialog::Accepted) {
+        auto updatedBook = editBookDialog.getNewBook();
+        if (updatedBook) {
+            books[currentRow] = updatedBook;
+
+            QString updatedBookInfo = QString::fromLocal8Bit(updatedBook->title.c_str());
+            ui->listWidget->item(currentRow)->setText(updatedBookInfo);
+
+            on_listWidget_currentRowChanged(currentRow);
+        }
     }
 }
 
@@ -104,27 +116,6 @@ void EditDialog::on_DeleteButton_clicked()
 
 void EditDialog::on_AddButton_clicked()
 {
-    // shared_ptr<Book> book = make_shared<Book>();
-
-    // qDebug() << "Use count before dialog:" << book.use_count();
-    // AddBook addBook(this, book);
-
-    // if (addBook.exec() == QDialog::Accepted) {
-    //     qDebug() << "Use count after dialog:" << book.use_count();
-    //     qDebug() << "Book title after dialog:" << QString::fromLocal8Bit(book->title.c_str());
-    //     qDebug() << "Book author after dialog:" << QString::fromLocal8Bit(book->author.c_str());
-
-    //     QString bookInfo = QString::fromLocal8Bit(book->title.c_str());
-
-    //     if (auto eBook = dynamic_pointer_cast<EBook>(book)) {
-    //         bookInfo += QString::fromLocal8Bit(eBook->link.c_str());
-    //     }
-
-    //     books.push_back(book);
-    //     ui->listWidget->addItem(bookInfo);
-    //     ui->listWidget->setCurrentRow(books.size() - 1);
-    //     on_listWidget_currentRowChanged(books.size() - 1);
-    // }
     shared_ptr<Book> newBook;
     AddBook addBook(this, newBook);
 
@@ -136,10 +127,6 @@ void EditDialog::on_AddButton_clicked()
                  ui->listWidget->addItem(bookInfo);
                  ui->listWidget->setCurrentRow(books.size() - 1);
                  on_listWidget_currentRowChanged(books.size() - 1);
-        } else {
-            qDebug() << "Ошибка: Песня не была создана!";
         }
-    } else {
-        qDebug() << "Добавление песни отменено.";
     }
 }

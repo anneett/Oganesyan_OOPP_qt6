@@ -21,7 +21,6 @@ public:
 
 private:
     Ui::EditDialog *ui;
-signals:
 
 private slots:
     void on_listWidget_currentRowChanged(int currentRow);

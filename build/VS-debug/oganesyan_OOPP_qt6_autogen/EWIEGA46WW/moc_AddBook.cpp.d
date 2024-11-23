@@ -145,24 +145,15 @@ C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/build/VS-debug/oganesyan_OOPP
   C:/QT/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h \
   C:/QT/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h \
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/QDialog \
-  C:/QT/6.8.0/msvc2022_64/include/QtWidgets/QScrollArea \
-  C:/QT/6.8.0/msvc2022_64/include/QtWidgets/QWidget \
-  C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qabstractscrollarea.h \
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qdialog.h \
-  C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qframe.h \
-  C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qscrollarea.h \
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qsizepolicy.h \
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgets-config.h \
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsexports.h \
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/QT/6.8.0/msvc2022_64/include/QtWidgets/qwidget.h \
-  C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/AddBook.h \
   C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Book.h \
   C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/Boost.h \
   C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EBook.h \
-  C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditBook.h \
-  C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/EditDialog.h \
-  C:/Users/egiaz/Documents/GitHub/Oganesyan_OOPP_qt6/WidgetOganesyan.h \
   C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/aligned_storage.hpp \
   C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/archive/archive_exception.hpp \
   C:/Users/egiaz/Documents/oganesyan_oopp_qt/boost_1_86_0/boost/archive/basic_archive.hpp \
