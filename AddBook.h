@@ -17,7 +17,7 @@ class AddBook : public QDialog
 public:
     enum Mode { Add, Edit };
 
-    explicit AddBook(QWidget *parent, std::shared_ptr<Book>&, Mode mode = Add);
+    explicit AddBook(QWidget *parent, shared_ptr<Book>&, Mode mode = Add);
     ~AddBook();
     shared_ptr<Book> getNewBook() const { return book; }
 

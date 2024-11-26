@@ -112,6 +112,18 @@ void EditDialog::on_DeleteButton_clicked()
     }
     books.erase(books.begin() + currentRow);
     delete ui->listWidget->takeItem(currentRow);
+
+    if (books.empty()) {
+        ui->titleEdit->clear();
+        ui->authorEdit->clear();
+        ui->releaseEdit->clear();
+        ui->publishingEdit->clear();
+        ui->instockEdit->clear();
+        ui->ratingEdit->clear();
+        ui->urlEdit->clear();
+        ui->url->setVisible(false);
+        ui->urlEdit->setVisible(false);
+    }
 }
 
 void EditDialog::on_AddButton_clicked()
